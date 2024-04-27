@@ -16,7 +16,7 @@ module.exports = {
     colors: {
       transparent: "transparent",
       current: "currentColor",
-      main: "rgb(9, 58, 255)",
+      main: "rgb(18, 81, 255)",
     },
     screens: {
       xs: "475px",

@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inclusive+Sans:ital@0;1&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 :root {
   --foreground-rgb: rgb(0, 0, 0);
   --background-start-rgb: rgb(214, 219, 220);
   --background-end-rgb: rgb(255, 255, 255);
-  --main-color: rgb(9, 58, 255);
+  --main-color: rgb(18, 81, 255);
   --content-width: 700px;
 }
 
@@ -74,7 +77,7 @@ nav, main {
 /* sm */
 @media (max-width: 640px) {
   .container, nav, main {
-    max-width: 475px;
+    width: 100%;
   }
 }
 
@@ -89,7 +92,8 @@ nav{
   width: inherit;
 }
 
-h1{
+h5{
+  font-family: 'DM Sans', Arial, Helvetica, sans-serif;
   font-size: larger;
   color: var(--main-color);
 }
