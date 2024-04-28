@@ -22,24 +22,24 @@ export default function Hero() {
         </div>
         <div className="w-full gap-[1rem] flex flex-col">
           <p>
-            Hello! I'm Arki, and I make designs that{" "}
+            Hello! I&rsquo;m Arki, and I make designs that{" "}
             <span className="magic-text">
               tell stories with magic and logic
             </span>
             .
           </p>
           <p>
-            As a computer science student, I've immersed myself in marketing and
-            brand building through various leadership positions in organizations
-            at the University of the Philippines Diliman.
+            As a computer science student, I&rsquo;ve immersed myself in
+            marketing and brand building through various leadership positions in
+            organizations at the University of the Philippines Diliman.
           </p>
           <p>
             My passion lies in fusing my skills in marketing and programming to
             craft projects that are both on-brand and on-target.
           </p>
           <p>
-            On the side, I love jogging with my friends, playing with my cat, and admiring the kalachuchi
-            flowers around our campus{" "}
+            On the side, I love jogging with my friends, playing with my cat,
+            and admiring the kalachuchi flowers around our campus{" "}
             <Image
               className="w-[20px] h-[20px] inline mx-[0.1rem] rotate-45"
               src="/static/images/kalachuchi.png"
