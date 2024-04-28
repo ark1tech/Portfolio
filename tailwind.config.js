@@ -12,11 +12,11 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-    },
-    colors: {
-      transparent: "transparent",
-      current: "currentColor",
-      main: "rgb(18, 81, 255)",
+      colors: {
+        transparent: "transparent",
+        current: "currentColor",
+        main: "#EF542B",
+      },
     },
     screens: {
       xs: "475px",
