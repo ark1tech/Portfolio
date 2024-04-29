@@ -44,7 +44,7 @@ body {
     var(--background-start-rgb); */
   color: rgb(var(--foreground-rgb));
   background: var(--background-start-rgb);
-  background-image: url("/grain.svg"),
+  /* background-image: url("/grain.svg"),
     radial-gradient(
       circle farthest-corner at top,
       #151515 0px,
@@ -52,7 +52,15 @@ body {
     );
   background-repeat: repeat, no-repeat;
   background-blend-mode: overlay, normal;
-  background-size: 30%, 100%;
+  background-size: 30%, 100%; */
+  background-image: radial-gradient(
+    circle farthest-corner at top,
+    #151515 0px,
+    var(--background-start-rgb) 550px
+  );
+  background-repeat: no-repeat;
+  background-blend-mode: normal;
+  background-size: 100%;
 }
 
 .card {
@@ -124,11 +132,19 @@ footer {
   height: auto;
   display: flex;
   flex-direction: col;
-  background-image: url("/grain.svg"),
+  /* background-image: url("/grain.svg"),
     radial-gradient(ellipse farthest-side at bottom, #000000 0px, #111111 1300px);
   background-repeat: repeat, no-repeat;
   background-blend-mode: overlay, normal;
-  background-size: 40%, 100%;
+  background-size: 40%, 100%; */
+  background-image: radial-gradient(
+    ellipse farthest-corner at bottom,
+    #000000 0px,
+    #111111 100%
+  );
+  background-repeat: no-repeat;
+  background-blend-mode: normal;
+  background-size: 100%;
 }
 
 /* 2xl */

@@ -8,10 +8,11 @@ export default function Foot() {
   return (
     <footer className="border-t-[1px] border-[#262626] relative overflow-clip">
       <Image
-        className="px-[2rem] w-[1200px] h-auto absolute left-0 right-0 bottom-0 mx-auto md:block hidden"
+        className="z-0 px-[2rem] w-[1200px] h-auto absolute left-0 right-0 bottom-0 mx-auto md:block hidden"
         src="/static/images/rkbm_bg.svg"
         width={1346}
         height={461}
+        quality={100}
         alt="Picture of the author"
       />
       <Image
@@ -19,35 +20,32 @@ export default function Foot() {
         src="/static/images/arki_bg.svg"
         width={607}
         height={461}
+        quality={100}
         alt="Picture of the author"
       />
-      <div className="foot w-full flex flex-col mt-[2rem] mb-[20rem] gap-[2rem]">
-        <div className="w-full flex flex-row justify-center items-center">
+      <div className="relative z-1 foot w-full flex flex-col mt-[2rem] mb-[17rem] gap-[2rem]">
+        <div className="flex flex-row justify-between gap-[1rem]">
           <p className="text-xs text-[#505050] font-['JetBrains_Mono'] text-pretty">
             Made with <FaHeart className="inline" /> by Arki
           </p>
-        </div>
-        <div className="flex flex-row justify-between gap-[1rem]">
-          <div className="flex flex-row gap-[1rem] items-center">
+          <div className="flex flex-row gap-[2rem] items-center">
             <Link href="/">
               <Image
                 className="hover:drop-shadow-[0_0_6px_#ef542bAF] hover:rotate-90  transition-all"
                 src="/static/images/rkbm.svg"
-                width={30}
+                width={15}
                 height={10}
                 alt="Picture of the author"
               />
             </Link>
-          </div>
-          <div className="flex flex-row gap-[1rem] items-center icon">
             <a href="https://www.linkedin.com/in/ark1tech/" target="_blank">
-              <FaLinkedin className="hover:text-main transition-all" />
+              <FaLinkedin className="hover:text-main text-[#505050] transition-all" />
             </a>
             <a href="https://www.instagram.com/arkimanago/" target="_blank">
-              <AiFillInstagram className="hover:text-main transition-all" />
+              <AiFillInstagram className="hover:text-main text-[#505050] transition-all" />
             </a>
             <a href="https://www.facebook.com/ark1desu/" target="_blank">
-              <FaFacebookSquare className="hover:text-main transition-all" />
+              <FaFacebookSquare className="hover:text-main text-[#505050] transition-all" />
             </a>
           </div>
         </div>
