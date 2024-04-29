@@ -5,7 +5,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 export default function Masonry() {
   return (
     <MantineProvider defaultColorScheme="dark">
-      <div className="flex flex-col py-[1rem] gap-[1rem]">
+      <div className="flex flex-col p-[1rem] gap-[1rem]">
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
           <Image
             className="w-full h-auto"

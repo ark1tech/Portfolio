@@ -59,6 +59,17 @@ export default function Hero() {
               alt="Picture of the author"
             />
           </p>
+          <p className="text-xs text-[#505050] font-['JetBrains_Mono'] w-full text-justify text-pretty">
+            &#47;&#47; This site serves as my temporary portfolio website as I
+            have yet to finish revamping the{" "}
+            <a
+              className="text-xs text-[#505050] font-['JetBrains_Mono'] underline-offset-2 underline hover:text-[#a8a8a8] transition-all text-balance"
+              href="https://arkimanago.com"
+              target="_blank">
+              old one
+            </a>
+            .
+          </p>
         </div>
         <div className="flex flex-row gap-[2rem]">
           <a
@@ -71,20 +82,6 @@ export default function Hero() {
           {/* <a className="inline_link" href="/" target="_self">
             Know more about me <FiArrowUpRight />
           </a> */}
-        </div>
-        <div className="w-full flex flex-col items-end mt-[1rem]">
-          <p className="text-xs text-[#505050] w-full text-justify text-pretty">
-            This site serves as my temporary portfolio website as I have yet to
-            finish revamping the{" "}
-            <a
-              className="text-xs text-[#505050] underline-offset-2 underline hover:text-[#a8a8a8] transition-all text-balance"
-              href="https://arkimanago.com"
-              target="_blank">
-              old one
-            </a>
-            . Unfortunately, this website is also still not done due to time
-            constraints as a student.
-          </p>
         </div>
       </div>
     </>

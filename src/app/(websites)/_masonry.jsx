@@ -9,12 +9,12 @@ export default function Masonry() {
   return (
     <MantineProvider defaultColorScheme="dark">
       <div className="flex flex-col p-[1rem] gap-[1rem]">
-        <p className="text-xs text-[#505050] w-full text-justify text-pretty">
-          I did not include this website in this list. In case you&rsquo;re
-          wondering, it&rsquo;s built with React and Next.js. <br/> You may visit the
-          repository{" "}
+        <p className="text-xs text-[#505050] font-['JetBrains_Mono'] w-full text-justify text-pretty">
+          &#47;&#47; I did not include this website in this list. But in case
+          you&rsquo;re wondering, it&rsquo;s built with React and Next.js. You
+          may visit the repository{" "}
           <a
-            className="text-xs text-[#505050] underline-offset-2 underline hover:text-[#a8a8a8] transition-all text-balance"
+            className="text-xs text-[#505050] font-['JetBrains_Mono'] underline-offset-2 underline hover:text-[#a8a8a8] transition-all text-balance"
             href="https://github.com/ark1tech/Portfolio"
             target="_blank">
             here
