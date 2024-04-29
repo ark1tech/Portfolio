@@ -11,7 +11,15 @@ export default function Masonry() {
       <div className="flex flex-col p-[1rem] gap-[1rem]">
         <p className="text-xs text-[#505050] w-full text-left text-pretty">
           I did not include this website in this list. But if you&rsquo;re
-          wondering, it&rsquo;s built with React and Next.js.
+          wondering, it&rsquo;s built with React and Next.js. You can visit the
+          repository{" "}
+          <a
+            className="text-xs text-[#505050] underline-offset-2 underline hover:text-[#a8a8a8] transition-all text-balance"
+            href="https://github.com/ark1tech/Portfolio"
+            target="_blank">
+            here
+          </a>
+          .
         </p>
 
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
