@@ -15,7 +15,7 @@ export default function Hero() {
           /> */}
           <div className="flex flex-col">
             <div className="flex flex-row gap-[0.5rem] items-center">
-              <h1 className="w-fit leading-tight">Arki Mañago</h1>
+              <h1 className="w-fit leading-tight uncensored">Arki Mañago</h1>
             </div>
             <h5 className="w-full">Student Leader · Frontend Developer</h5>
           </div>
@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="w-full gap-[1rem] flex flex-col">
           <p>
             Hello! I&rsquo;m Arki, and I make designs that{" "}
-            <span className="magic-text">
+            <span className="magic-text uncensored">
               tell stories with magic and logic
             </span>
             .
