@@ -1,7 +1,7 @@
 import "./globals.css";
 import "@mantine/core/styles.css";
 
-import NavBar from "./nav.jsx";
+import NavBar from "./_nav.jsx";
 import Favicon from "./favicon.svg";
 
 import { ColorSchemeScript } from "@mantine/core";
@@ -20,10 +20,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <ColorSchemeScript forceColorScheme = 'dark' />
+        <ColorSchemeScript forceColorScheme="dark" />
       </head>
       <body className="font-['Roboto']">
-        <div className="container flex flex-col items-center">
+        <div className="container flex flex-col gap-[0rem] items-center min-h-[100svh]">
           <NavBar />
           {children}
         </div>

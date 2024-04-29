@@ -149,6 +149,15 @@ a {
   text-wrap: pretty;
 }
 
+.navtext {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.navtext:hover {
+  color: var(--main-color);
+}
+
 h1 {
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
   color: rgb(255, 255, 255);
@@ -182,6 +191,10 @@ h1 {
   transition-duration: 150ms;
 }
 
+.kalachuchi:hover ~ .chuchi {
+  animation: rotate 3s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+}
+
 /* Background Gradient */
 
 :root {
@@ -213,11 +226,11 @@ h1 {
 
 @keyframes rotate {
   from {
-    transform: rotate(0deg);
+    transform: rotate(45deg);
   }
 
   to {
-    transform: rotate(360deg);
+    transform: rotate(405deg);
   }
 }
 

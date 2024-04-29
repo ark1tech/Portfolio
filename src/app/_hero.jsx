@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="flex flex-col items-start gap-[2rem]">
         <div className="flex flex-row gap-[1rem] items-center">
           {/* <Image
-            className="border-[1px] border-[#262626] rounded-md"
+            className="border-[1px] border-[#262626] rounded-md w-[65px] h-auto"
             src="/static/images/rkbm_dp.png"
             width={80}
             height={80}
@@ -38,10 +38,10 @@ export default function Hero() {
             craft projects that are both on-brand and on-target.
           </p>
           <p>
-            On the side, I love jogging with my friends, playing with my cat,
-            and admiring the kalachuchi flowers around our campus{" "}
+            On the side, I love jogging with my friends and playing with my cat! 
+            When I feel extra senti, I&rsquo;d walk around our campus listening to <a className="text-inherit hover:text-white transition-all cursor-help" href="https://open.spotify.com/album/4prgRUxaRi1OHVtCMrCbK2?si=yPVFGef3QBW2RlYfnvwgkA" target="_blank">my favorite The Ridleys songs</a> while admiring <span className="kalachuchi cursor-grabbing">kalachuchi flowers along the way</span>{" "}
             <Image
-              className="w-[20px] h-[20px] inline mx-[0.1rem] rotate-45"
+              className="w-[20px] h-[20px] inline mx-[0.1rem] rotate-45 chuchi"
               src="/static/images/kalachuchi.png"
               width={80}
               height={80}
@@ -61,17 +61,20 @@ export default function Hero() {
             Know more about me <FiArrowUpRight />
           </a> */}
         </div>
-        <div className="w-full flex flex-col items-end">
-          <p className="text-xs text-[#505050] w-[49%] text-right">
+        <div className="w-full flex flex-col items-end mt-[1rem]">
+          <p className="text-xs text-[#505050] w-full text-right text-balance">
             This site serves as my temporary portfolio website as I have yet to
             finish revamping the{" "}
             <a
-              className="text-xs text-[#505050] underline-offset-2 underline hover:text-[#a8a8a8] transition-all"
+              className="text-xs text-[#505050] underline-offset-2 underline hover:text-[#a8a8a8] transition-all text-balance"
               href="https://arkimanago.com"
               target="_blank">
               old one
             </a>
             .
+          </p>
+          <p className="text-xs text-[#505050] w-full text-right text-balance">
+            Unfortunately, this website is also still not done due to time constraints as a student.
           </p>
         </div>
       </div>
