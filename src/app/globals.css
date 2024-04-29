@@ -140,7 +140,7 @@ footer {
   background-image: radial-gradient(
     ellipse farthest-corner at bottom,
     #000000 0px,
-    #111111 100%
+    #0f0f0f 100%
   );
   background-repeat: no-repeat;
   background-blend-mode: normal;

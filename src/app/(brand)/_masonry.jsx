@@ -9,7 +9,7 @@ export default function Masonry() {
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
           <Image
             className="w-full h-auto"
-            src="/static/images/broughtby.png"
+            src="/static/images/broughtbyb.png"
             width={694}
             height={214}
             alt="Picture of the author"
