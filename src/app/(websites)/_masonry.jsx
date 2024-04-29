@@ -8,7 +8,7 @@ import { FaGithub, FaVuejs, FaReact } from "react-icons/fa";
 export default function Masonry() {
   return (
     <MantineProvider defaultColorScheme="dark">
-      <div className="flex flex-col p-[1rem] gap-[1rem]">
+      <div className="flex flex-col md:px-[1rem] px-0 py-[1rem]  gap-[1rem]">
         <p className="text-xs text-[#505050] font-['JetBrains_Mono'] w-full text-justify text-pretty">
           &#47;&#47; I did not include this website in this list. But in case
           you&rsquo;re wondering, it&rsquo;s built with React and Next.js. You
@@ -42,7 +42,7 @@ export default function Masonry() {
                   <RiSvelteFill className="" />
                   <SiTailwindcss className="" />
                   <Tooltip
-                    className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
+                    color="dark"
                     label="View on GitHub"
                     offset={10}
                     position="top"
@@ -64,9 +64,9 @@ export default function Masonry() {
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
               <Tooltip
-                className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
+                color="dark"
                 label="Work in progress"
-                offset={10}
+                offset={20}
                 position="left"
                 transitionProps={{ transition: "pop", duration: 300 }}>
                 <a
@@ -108,7 +108,7 @@ export default function Masonry() {
                   <RiSvelteFill className="" />
                   <SiTailwindcss className="" />
                   <Tooltip
-                    className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
+                    color="dark"
                     label="View on GitHub"
                     offset={10}
                     position="top"
@@ -130,9 +130,9 @@ export default function Masonry() {
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
               <Tooltip
-                className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
+                color="dark"
                 label="Work in progress"
-                offset={10}
+                offset={20}
                 position="left"
                 transitionProps={{ transition: "pop", duration: 300 }}>
                 <a
@@ -174,7 +174,7 @@ export default function Masonry() {
                   <FaVuejs className="" />
                   <SiTailwindcss className="" />
                   <Tooltip
-                    className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
+                    color="dark"
                     label="View on GitHub"
                     offset={10}
                     position="top"
@@ -196,9 +196,9 @@ export default function Masonry() {
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
               <Tooltip
-                className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
+                color="dark"
                 label="Work in progress"
-                offset={10}
+                offset={20}
                 position="left"
                 transitionProps={{ transition: "pop", duration: 300 }}>
                 <a
@@ -240,7 +240,7 @@ export default function Masonry() {
                   <FaReact className="" />
                   <SiTailwindcss className="" />
                   <Tooltip
-                    className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
+                    color="dark"
                     label="View on GitHub"
                     offset={10}
                     position="top"
@@ -263,9 +263,9 @@ export default function Masonry() {
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
               <Tooltip
-                className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
+                color="dark"
                 label="Work in progress"
-                offset={10}
+                offset={20}
                 position="left"
                 transitionProps={{ transition: "pop", duration: 300 }}>
                 <a
@@ -278,7 +278,7 @@ export default function Masonry() {
               </Tooltip>
               <a
                 className="inline_link"
-                href="https://arkimanago.com"
+                href="https://temp.arkimanago.com"
                 target="_blank">
                 <span>Execution</span>{" "}
                 <FiArrowUpRight className="icon rotate-[45deg]" />

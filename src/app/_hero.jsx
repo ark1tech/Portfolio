@@ -64,7 +64,7 @@ export default function Hero() {
             have yet to finish revamping the{" "}
             <a
               className="text-xs text-[#505050] font-['JetBrains_Mono'] underline-offset-2 underline hover:text-[#a8a8a8] transition-all text-balance"
-              href="https://arkimanago.com"
+              href="https://temp.arkimanago.com"
               target="_blank">
               old one
             </a>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inclusive+Sans:ital@0;1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inclusive+Sans:ital@0;1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -56,15 +56,11 @@ body {
 }
 
 .card {
-  background-image: url("/grain.svg"),
-    radial-gradient(
-      circle farthest-side at bottom right,
-      #212020 0%,
-      #0b0b0b 70%
-    );
   /* background-image: 
     url("/grain.svg"),
     linear-gradient(to right, #131313 50%, #1e1e1e 80%); */
+  background-image: url("/grain.svg"),
+    radial-gradient(circle farthest-side at right, #171717 0%, #0b0b0b 70%);
   background-repeat: repeat, no-repeat;
   background-blend-mode: overlay, normal;
   background-size: 40%, 100%;
@@ -110,12 +106,29 @@ body {
   margin-right: auto;
 }
 
+footer {
+  max-width: 1536px;
+}
+
 nav,
-main {
+main,
+.foot {
   max-width: var(--content-width);
   margin-left: auto;
   margin-right: auto;
-  padding: 1rem 2.5rem;
+  padding: 1rem 2.5rem 0 2.5rem;
+}
+
+footer {
+  width: calc(100dvw - 5px);
+  height: auto;
+  display: flex;
+  flex-direction: col;
+  background-image: url("/grain.svg"),
+    radial-gradient(ellipse farthest-side at bottom, #000000 0px, #111111 1300px);
+  background-repeat: repeat, no-repeat;
+  background-blend-mode: overlay, normal;
+  background-size: 40%, 100%;
 }
 
 /* 2xl */
@@ -142,6 +155,7 @@ main {
 /* md */
 @media (max-width: 768px) {
   .container,
+  .foot,
   nav,
   main {
     max-width: 640px;
@@ -151,6 +165,7 @@ main {
 /* sm */
 @media (max-width: 640px) {
   .container,
+  .foot,
   nav,
   main {
     width: 100%;
@@ -160,6 +175,7 @@ main {
 /* xs */
 @media (max-width: 475px) {
   .container,
+  .foot,
   nav,
   main {
     width: 100%;

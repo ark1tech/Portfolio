@@ -5,7 +5,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 export default function Masonry() {
   return (
     <MantineProvider defaultColorScheme="dark">
-      <div className="flex flex-col p-[1rem] gap-[1rem]">
+      <div className="flex flex-col md:px-[1rem] px-0 py-[1rem]  gap-[1rem]">
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
           <Image
             className="w-full h-auto"
@@ -28,9 +28,9 @@ export default function Masonry() {
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
               <Tooltip
-                className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
+                color="dark"
                 label="Work in progress"
-                offset={10}
+                offset={20}
                 position="left"
                 transitionProps={{ transition: "pop", duration: 300 }}>
                 <a
@@ -74,9 +74,9 @@ export default function Masonry() {
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
               <Tooltip
-                className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
+                color="dark"
                 label="Work in progress"
-                offset={10}
+                offset={20}
                 position="left"
                 transitionProps={{ transition: "pop", duration: 300 }}>
                 <a
@@ -120,9 +120,9 @@ export default function Masonry() {
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
               <Tooltip
-                className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
+                color="dark"
                 label="Work in progress"
-                offset={10}
+                offset={20}
                 position="left"
                 transitionProps={{ transition: "pop", duration: 300 }}>
                 <a
@@ -167,9 +167,9 @@ export default function Masonry() {
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
               <Tooltip
-                className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
+                color="dark"
                 label="Work in progress"
-                offset={10}
+                offset={20}
                 position="left"
                 transitionProps={{ transition: "pop", duration: 300 }}>
                 <a
