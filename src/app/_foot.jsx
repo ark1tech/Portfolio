@@ -18,7 +18,7 @@ export default function Foot() {
       <Image
         className="px-[2rem] w-[550px] h-auto absolute left-0 right-0 bottom-0 mx-auto md:hidden block"
         src="/static/images/arki_bg.svg"
-        width={607}
+        width={1346}
         height={461}
         quality={100}
         alt="Picture of the author"
