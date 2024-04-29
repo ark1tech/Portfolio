@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Foot() {
   return (
-    <footer className="border-t-[1px] border-[#262626] relative overflow-clip">
+    <footer className=" relative overflow-clip">
       <Image
         className="z-0 px-[2rem] w-[1200px] h-auto absolute left-0 right-0 bottom-0 mx-auto md:block hidden"
         src="/static/images/rkbm_bg.svg"
@@ -23,7 +23,7 @@ export default function Foot() {
         quality={100}
         alt="Picture of the author"
       />
-      <div className="relative z-1 foot w-full flex flex-col mt-[2rem] mb-[17rem] gap-[2rem]">
+      <div className="relative z-1 foot w-full flex flex-col mt-[3rem] mb-[19rem] gap-[2rem]">
         <div className="flex flex-row justify-between gap-[1rem]">
           <p className="text-xs text-[#505050] font-['JetBrains_Mono'] text-pretty">
             Made with <FaHeart className="inline" /> by Arki

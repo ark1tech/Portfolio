@@ -12,7 +12,7 @@ export default function Home() {
           <Projects />
         </div>
       </main>
-      <div className="mt-[4rem]">
+      <div className="mt-[8rem]">
         <Footer />
       </div>
     </>

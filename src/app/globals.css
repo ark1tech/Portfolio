@@ -137,15 +137,24 @@ footer {
   background-repeat: repeat, no-repeat;
   background-blend-mode: overlay, normal;
   background-size: 40%, 100%; */
+  animation: background-pan2 4s linear infinite;
   background-image: radial-gradient(
     ellipse farthest-corner at bottom,
-    #000000 0px,
-    #0f0f0f 100%
+    #9e4103 -300%,
+    #000000 50%
   );
-  background-repeat: no-repeat;
-  background-blend-mode: normal;
-  background-size: 100%;
+  background-size: 200%;
+  white-space: nowrap;
+
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
 }
+
+/* footer:hover {
+  animation: background-pan2 2s linear infinite;
+  background-size: 1%;
+} */
 
 /* 2xl */
 @media (max-width: 1536px) {
@@ -287,6 +296,16 @@ h1 {
 }
 
 @keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
+}
+
+@keyframes background-pan2 {
   from {
     background-position: 0% center;
   }
