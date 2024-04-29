@@ -47,8 +47,8 @@ body {
   background-image: url("/grain.svg"),
     radial-gradient(
       circle farthest-corner at top,
-      #151515 0%,
-      var(--background-start-rgb) 30%
+      #151515 0px,
+      var(--background-start-rgb) 550px
     );
   background-repeat: repeat, no-repeat;
   background-blend-mode: overlay, normal;
