@@ -45,11 +45,11 @@ export default function Hero() {
               className="text-inherit hover:text-white transition-all cursor-help"
               href="https://open.spotify.com/album/4prgRUxaRi1OHVtCMrCbK2?si=yPVFGef3QBW2RlYfnvwgkA"
               target="_blank">
-              my favorite The Ridleys songs
+              my fave The Ridleys songs
             </a>{" "}
             while admiring{" "}
             <span className="kalachuchi cursor-grabbing">
-              kalachuchi flowers along the way
+              the kalachuchi flowers along the way
             </span>{" "}
             <Image
               className="w-[20px] h-[20px] inline mx-[0.1rem] rotate-45 chuchi"
