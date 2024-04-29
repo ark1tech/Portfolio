@@ -37,7 +37,7 @@ export default function Masonry() {
                 <p className="text-xs text-[#505050] w-full text-left text-pretty">
                   April 2024
                 </p>
-                <h4>CS 132 Data Science Portfolio</h4>
+                <h4>CS 132 Portfolio</h4>
                 <div className="flex flex-row gap-[0.5rem] text-[#575757]">
                   <RiSvelteFill className="" />
                   <SiTailwindcss className="" />
@@ -169,7 +169,7 @@ export default function Masonry() {
                 <p className="text-xs text-[#505050] w-full text-left text-pretty">
                   Feb 2024
                 </p>
-                <h4>My Older Sister&rsquo;s Wedding</h4>
+                <h4>Older Sister&rsquo;s Wedding</h4>
                 <div className="flex flex-row gap-[0.5rem] text-[#575757]">
                   <FaVuejs className="" />
                   <SiTailwindcss className="" />
