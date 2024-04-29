@@ -2,7 +2,7 @@ import "./globals.css";
 import "@mantine/core/styles.css";
 
 import NavBar from "./_nav.jsx";
-import Favicon from "./favicon.svg";
+import Favicon from "./favicon.png";
 
 import { ColorSchemeScript } from "@mantine/core";
 

@@ -59,7 +59,7 @@ export default function Masonry() {
           <div className="w-full flex flex-row justify-end gap-[1rem]">
             <a
               className="inline_link"
-              href="https://www.facebook.com/CURSOR.Tackle"
+              href="https://bit.ly/4aR7Dkd"
               target="_blank">
               <span>Prototype</span>{" "}
               <FiArrowUpRight className="icon rotate-[45deg]" />
