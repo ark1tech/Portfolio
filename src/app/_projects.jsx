@@ -19,15 +19,15 @@ export default function Projects() {
   const iconStyle = { width: rem(12), height: rem(12) };
   return (
     <MantineProvider defaultColorScheme="dark">
-      <Tabs color="orange" defaultValue="brand">
+      <Tabs color="orange" defaultValue="websites">
         <Tabs.List grow justify="space-between">
-          <Tabs.Tab value="brand" leftSection={<IconIcons style={iconStyle} />}>
-            Brand
-          </Tabs.Tab>
           <Tabs.Tab
             value="websites"
             leftSection={<IconBrowser style={iconStyle} />}>
             Websites
+          </Tabs.Tab>
+          <Tabs.Tab value="brand" leftSection={<IconIcons style={iconStyle} />}>
+            Brand
           </Tabs.Tab>
           <Tabs.Tab
             value="prototypes"
@@ -44,11 +44,11 @@ export default function Projects() {
           </Tabs.Tab>
         </Tabs.List>
 
-        <Tabs.Panel value="brand">
-          <BrandMasonry />
-        </Tabs.Panel>
         <Tabs.Panel value="websites">
           <WebMasonry />
+        </Tabs.Panel>
+        <Tabs.Panel value="brand">
+          <BrandMasonry />
         </Tabs.Panel>
         <Tabs.Panel value="prototypes">
           <ProtoMasonry />
@@ -59,7 +59,6 @@ export default function Projects() {
         <Tabs.Panel value="video">
           <VidMasonry />
         </Tabs.Panel>
-
       </Tabs>
     </MantineProvider>
   );
