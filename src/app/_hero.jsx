@@ -29,7 +29,7 @@ export default function Hero() {
             .
           </p>
           <p>
-            As a computer science student, I&rsquo;ve immersed myself in
+            Even as a computer science student, I&rsquo;ve immersed myself in
             marketing and brand building through various leadership positions in
             organizations at the University of the Philippines Diliman.
           </p>
