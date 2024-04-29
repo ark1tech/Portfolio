@@ -9,9 +9,9 @@ export default function Masonry() {
   return (
     <MantineProvider defaultColorScheme="dark">
       <div className="flex flex-col p-[1rem] gap-[1rem]">
-        <p className="text-xs text-[#505050] w-full text-left text-pretty">
-          I did not include this website in this list. But if you&rsquo;re
-          wondering, it&rsquo;s built with React and Next.js. You can visit the
+        <p className="text-xs text-[#505050] w-full text-justify text-pretty">
+          I did not include this website in this list. In case you&rsquo;re
+          wondering, it&rsquo;s built with React and Next.js. <br/> You may visit the
           repository{" "}
           <a
             className="text-xs text-[#505050] underline-offset-2 underline hover:text-[#a8a8a8] transition-all text-balance"
@@ -32,34 +32,36 @@ export default function Masonry() {
             quality={100}
           />
           <div className="card">
-            <div className="flex flex-wrap justify-between items-center gap-[0.5rem]">
-              <p className="text-xs text-[#505050] w-full text-left text-pretty">
-                April 2024
-              </p>
-              <h4>CS 132 Data Science Portfolio</h4>
-              <div className="flex flex-row gap-[0.5rem] text-[#575757]">
-                <RiSvelteFill className="" />
-                <SiTailwindcss className="" />
-                <Tooltip
-                  className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
-                  label="View on GitHub"
-                  offset={10}
-                  position="top"
-                  withArrow="true"
-                  transitionProps={{ transition: "pop", duration: 300 }}>
-                  <a
-                    className="inline_link transition-all"
-                    href="https://github.com/ark1tech/CS-132"
-                    target="_blank">
-                    <FaGithub />
-                  </a>
-                </Tooltip>
+            <div className="flex flex-col gap-[0.5rem] w-full">
+              <div className="flex flex-wrap justify-between items-center gap-[0.5rem]">
+                <p className="text-xs text-[#505050] w-full text-left text-pretty">
+                  April 2024
+                </p>
+                <h4>CS 132 Data Science Portfolio</h4>
+                <div className="flex flex-row gap-[0.5rem] text-[#575757]">
+                  <RiSvelteFill className="" />
+                  <SiTailwindcss className="" />
+                  <Tooltip
+                    className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
+                    label="View on GitHub"
+                    offset={10}
+                    position="top"
+                    withArrow="true"
+                    transitionProps={{ transition: "pop", duration: 300 }}>
+                    <a
+                      className="inline_link transition-all"
+                      href="https://github.com/ark1tech/CS-132"
+                      target="_blank">
+                      <FaGithub />
+                    </a>
+                  </Tooltip>
+                </div>
               </div>
+              <p>
+                A portfolio website that tells how a data science project about
+                Philippine labor struggles has been conducted.
+              </p>
             </div>
-            <p>
-              A portfolio website that tells how a data science project about
-              Philippine labor struggles has been conducted.
-            </p>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
               <Tooltip
                 className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
@@ -96,34 +98,36 @@ export default function Masonry() {
             quality={100}
           />
           <div className="card">
-            <div className="flex flex-wrap justify-between items-center gap-[0.5rem]">
-              <p className="text-xs text-[#505050] w-full text-left text-pretty">
-                April 2024
-              </p>
-              <h4>Broughtby</h4>
-              <div className="flex flex-row gap-[0.5rem] text-[#575757]">
-                <RiSvelteFill className="" />
-                <SiTailwindcss className="" />
-                <Tooltip
-                  className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
-                  label="View on GitHub"
-                  offset={10}
-                  position="top"
-                  withArrow="true"
-                  transitionProps={{ transition: "pop", duration: 300 }}>
-                  <a
-                    className="inline_link transition-all"
-                    href="https://github.com/ark1tech/Broughtby"
-                    target="_blank">
-                    <FaGithub />
-                  </a>
-                </Tooltip>
+            <div className="flex flex-col gap-[0.5rem] w-full">
+              <div className="flex flex-wrap justify-between items-center gap-[0.5rem]">
+                <p className="text-xs text-[#505050] w-full text-left text-pretty">
+                  April 2024
+                </p>
+                <h4>Broughtby</h4>
+                <div className="flex flex-row gap-[0.5rem] text-[#575757]">
+                  <RiSvelteFill className="" />
+                  <SiTailwindcss className="" />
+                  <Tooltip
+                    className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
+                    label="View on GitHub"
+                    offset={10}
+                    position="top"
+                    withArrow="true"
+                    transitionProps={{ transition: "pop", duration: 300 }}>
+                    <a
+                      className="inline_link transition-all"
+                      href="https://github.com/ark1tech/Broughtby"
+                      target="_blank">
+                      <FaGithub />
+                    </a>
+                  </Tooltip>
+                </div>
               </div>
+              <p>
+                A landing webpage for Broughtby, a startup that aims to ease
+                corporate transactions of youth-led and student-led events.
+              </p>
             </div>
-            <p>
-              A landing webpage for Broughtby, a startup that aims to ease
-              corporate transactions of youth-led and student-led events.
-            </p>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
               <Tooltip
                 className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
@@ -160,34 +164,36 @@ export default function Masonry() {
             quality={100}
           />
           <div className="card">
-            <div className="flex flex-wrap justify-between items-center gap-[0.5rem]">
-              <p className="text-xs text-[#505050] w-full text-left text-pretty">
-                Feb 2024
-              </p>
-              <h4>My Older Sister&rsquo;s Wedding</h4>
-              <div className="flex flex-row gap-[0.5rem] text-[#575757]">
-                <FaVuejs className="" />
-                <SiTailwindcss className="" />
-                <Tooltip
-                  className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
-                  label="View on GitHub"
-                  offset={10}
-                  position="top"
-                  withArrow="true"
-                  transitionProps={{ transition: "pop", duration: 300 }}>
-                  <a
-                    className="inline_link transition-all"
-                    href="https://github.com/ark1tech/KGWedding/"
-                    target="_blank">
-                    <FaGithub />
-                  </a>
-                </Tooltip>
+            <div className="flex flex-col gap-[0.5rem] w-full">
+              <div className="flex flex-wrap justify-between items-center gap-[0.5rem]">
+                <p className="text-xs text-[#505050] w-full text-left text-pretty">
+                  Feb 2024
+                </p>
+                <h4>My Older Sister&rsquo;s Wedding</h4>
+                <div className="flex flex-row gap-[0.5rem] text-[#575757]">
+                  <FaVuejs className="" />
+                  <SiTailwindcss className="" />
+                  <Tooltip
+                    className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
+                    label="View on GitHub"
+                    offset={10}
+                    position="top"
+                    withArrow="true"
+                    transitionProps={{ transition: "pop", duration: 300 }}>
+                    <a
+                      className="inline_link transition-all"
+                      href="https://github.com/ark1tech/KGWedding/"
+                      target="_blank">
+                      <FaGithub />
+                    </a>
+                  </Tooltip>
+                </div>
               </div>
+              <p>
+                An information website that guided over 100 guests about the
+                engaged couple.
+              </p>
             </div>
-            <p>
-              An information website that guided over 100 guests about the
-              engaged couple.
-            </p>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
               <Tooltip
                 className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
@@ -224,35 +230,37 @@ export default function Masonry() {
             quality={100}
           />
           <div className="card">
-            <div className="flex flex-wrap justify-between items-center gap-[0.5rem]">
-              <p className="text-xs text-[#505050] w-full text-left text-pretty">
-                March 2023
-              </p>
-              <h4>(Old) Personal Website</h4>
-              <div className="flex flex-row gap-[0.5rem] text-[#575757]">
-                <FaReact className="" />
-                <SiTailwindcss className="" />
-                <Tooltip
-                  className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
-                  label="View on GitHub"
-                  offset={10}
-                  position="top"
-                  withArrow="true"
-                  transitionProps={{ transition: "pop", duration: 300 }}>
-                  <a
-                    className="inline_link transition-all"
-                    href="https://github.com/ark1tech/my-website"
-                    target="_blank">
-                    <FaGithub />
-                  </a>
-                </Tooltip>
+            <div className="flex flex-col gap-[0.5rem] w-full">
+              <div className="flex flex-wrap justify-between items-center gap-[0.5rem]">
+                <p className="text-xs text-[#505050] w-full text-left text-pretty">
+                  March 2023
+                </p>
+                <h4>(Old) Personal Website</h4>
+                <div className="flex flex-row gap-[0.5rem] text-[#575757]">
+                  <FaReact className="" />
+                  <SiTailwindcss className="" />
+                  <Tooltip
+                    className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
+                    label="View on GitHub"
+                    offset={10}
+                    position="top"
+                    withArrow="true"
+                    transitionProps={{ transition: "pop", duration: 300 }}>
+                    <a
+                      className="inline_link transition-all"
+                      href="https://github.com/ark1tech/my-website"
+                      target="_blank">
+                      <FaGithub />
+                    </a>
+                  </Tooltip>
+                </div>
               </div>
+              <p>
+                My resume/portfolio website. Not maintained anymore as I am
+                currently revamping and rebranding it, and I&rsquo;m very
+                excited to launch it!
+              </p>
             </div>
-            <p>
-              My resume/portfolio website. Not maintained anymore as I am
-              currently revamping and rebranding it, and I&rsquo;m very excited
-              to launch it!
-            </p>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
               <Tooltip
                 className="text-[0.5rem] text-[#ffffff] bg-[#414040]"

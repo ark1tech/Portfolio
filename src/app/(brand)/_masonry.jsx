@@ -5,7 +5,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 export default function Masonry() {
   return (
     <MantineProvider defaultColorScheme="dark">
-      <div className="flex flex-col p-[1rem] gap-[1rem]">
+      <div className="flex flex-col py-[1rem] gap-[1rem]">
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
           <Image
             className="w-full h-auto"
@@ -16,14 +16,16 @@ export default function Masonry() {
             quality={100}
           />
           <div className="card">
-            <p className="text-xs text-[#505050] w-full text-left text-pretty">
-              April 2024
-            </p>
-            <h4>Broughtby</h4>
-            <p>
-              A passthrough payment platform where event organizers and sponsors
-              can conduct their transactions.
-            </p>
+            <div className="flex flex-col gap-[0.5rem] w-full">
+              <p className="text-xs text-[#505050] w-full text-left text-pretty">
+                April 2024
+              </p>
+              <h4>Broughtby</h4>
+              <p>
+                A passthrough payment platform where event organizers and
+                sponsors can conduct their transactions.
+              </p>
+            </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
               <Tooltip
                 className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
@@ -60,14 +62,16 @@ export default function Masonry() {
             quality={100}
           />
           <div className="card">
-            <p className="text-xs text-[#505050] w-full text-left text-pretty">
-              April 2024
-            </p>
-            <h4>CS Week</h4>
-            <p>
-              CS Week is an annual student-bonding event in the Department of
-              Computer Science at the University of the Philippines Diliman.
-            </p>
+            <div className="flex flex-col gap-[0.5rem] w-full">
+              <p className="text-xs text-[#505050] w-full text-left text-pretty">
+                April 2024
+              </p>
+              <h4>CS Week</h4>
+              <p>
+                CS Week is an annual student-bonding event in the Department of
+                Computer Science at the University of the Philippines Diliman.
+              </p>
+            </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
               <Tooltip
                 className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
@@ -104,14 +108,16 @@ export default function Masonry() {
             quality={100}
           />
           <div className="card">
-            <p className="text-xs text-[#505050] w-full text-left text-pretty">
-              Oct 2023
-            </p>
-            <h4>Tackle 2024: Limitless</h4>
-            <p>
-              UP CURSOR&rsquo;s Tackle is an annual event that provides
-              opportunities for aspiring tech professionals.
-            </p>
+            <div className="flex flex-col gap-[0.5rem] w-full">
+              <p className="text-xs text-[#505050] w-full text-left text-pretty">
+                Oct 2023
+              </p>
+              <h4>Tackle 2024: Limitless</h4>
+              <p>
+                UP CURSOR&rsquo;s Tackle is an annual event that provides
+                opportunities for aspiring tech professionals.
+              </p>
+            </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
               <Tooltip
                 className="text-[0.5rem] text-[#ffffff] bg-[#414040]"
@@ -148,14 +154,17 @@ export default function Masonry() {
             quality={100}
           />
           <div className="card">
-            <p className="text-xs text-[#505050] w-full text-left text-pretty">
-              Oct 2023
-            </p>
-            <h4>UP NOVA</h4>
-            <p>
-              UP NOVA (UP Innovation Leaders&rsquo; Hub) is a student-led
-              organization that stands at the forefront of inclusive innovation.
-            </p>
+            <div className="flex flex-col gap-[0.5rem] w-full">
+              <p className="text-xs text-[#505050] w-full text-left text-pretty">
+                Oct 2023
+              </p>
+              <h4>UP NOVA</h4>
+              <p>
+                UP NOVA (UP Innovation Leaders&rsquo; Hub) is a student-led
+                organization that stands at the forefront of inclusive
+                innovation.
+              </p>
+            </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
               <Tooltip
                 className="text-[0.5rem] text-[#ffffff] bg-[#414040]"

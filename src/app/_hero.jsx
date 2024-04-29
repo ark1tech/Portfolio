@@ -38,8 +38,19 @@ export default function Hero() {
             craft projects that are both on-brand and on-target.
           </p>
           <p>
-            On the side, I love jogging with my friends and playing with my cat! 
-            When I feel extra senti, I&rsquo;d walk around our campus listening to <a className="text-inherit hover:text-white transition-all cursor-help" href="https://open.spotify.com/album/4prgRUxaRi1OHVtCMrCbK2?si=yPVFGef3QBW2RlYfnvwgkA" target="_blank">my favorite The Ridleys songs</a> while admiring <span className="kalachuchi cursor-grabbing">kalachuchi flowers along the way</span>{" "}
+            On the side, I love jogging with my friends and playing with my cat!
+            When I feel extra senti, I&rsquo;d walk around our campus listening
+            to{" "}
+            <a
+              className="text-inherit hover:text-white transition-all cursor-help"
+              href="https://open.spotify.com/album/4prgRUxaRi1OHVtCMrCbK2?si=yPVFGef3QBW2RlYfnvwgkA"
+              target="_blank">
+              my favorite The Ridleys songs
+            </a>{" "}
+            while admiring{" "}
+            <span className="kalachuchi cursor-grabbing">
+              kalachuchi flowers along the way
+            </span>{" "}
             <Image
               className="w-[20px] h-[20px] inline mx-[0.1rem] rotate-45 chuchi"
               src="/static/images/kalachuchi.png"
@@ -62,7 +73,7 @@ export default function Hero() {
           </a> */}
         </div>
         <div className="w-full flex flex-col items-end mt-[1rem]">
-          <p className="text-xs text-[#505050] w-full text-right text-balance">
+          <p className="text-xs text-[#505050] w-full text-justify text-pretty">
             This site serves as my temporary portfolio website as I have yet to
             finish revamping the{" "}
             <a
@@ -71,10 +82,8 @@ export default function Hero() {
               target="_blank">
               old one
             </a>
-            .
-          </p>
-          <p className="text-xs text-[#505050] w-full text-right text-balance">
-            Unfortunately, this website is also still not done due to time constraints as a student.
+            . Unfortunately, this website is also still not done due to time
+            constraints as a student.
           </p>
         </div>
       </div>
