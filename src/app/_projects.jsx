@@ -10,9 +10,9 @@ import {
 } from "@tabler/icons-react";
 
 import BrandMasonry from "./(brand)/_masonry.jsx";
-import ProtoMasonry from "./(prototype)/masonry.jsx";
+import ProtoMasonry from "./(prototype)/_masonry.jsx";
+import WebMasonry from "./(websites)/_masonry.jsx";
 import PubMasonry from "./(pubmats)/masonry.jsx";
-import WebMasonry from "./(websites)/masonry.jsx";
 import VidMasonry from "./(video)/masonry.jsx";
 
 export default function Projects() {

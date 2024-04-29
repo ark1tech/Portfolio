@@ -6,7 +6,7 @@ export default function NavBar() {
     <nav className="py-[2rem] flex flex-row justify-between items-center ">
       <Link href="/">
         <Image
-          className="hover:drop-shadow-[0_0_6px_#ef542bAF] hover:rotate-90 transition-all"
+          className="hover:drop-shadow-[0_0_6px_#ef542bAF] hover:rotate-90  transition-all"
           src="/static/images/rkbm.svg"
           width={30}
           height={10}

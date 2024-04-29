@@ -16,8 +16,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: #0f0f0f;
-    --background-start-rgb: #0f0f0f;
-    --background-end-rgb: #0f0f0f;
+    --background-start-rgb: #0a0a0a;
+    --background-end-rgb: #070707;
   }
 }
 
@@ -44,11 +44,12 @@ body {
     var(--background-start-rgb); */
   color: rgb(var(--foreground-rgb));
   background: var(--background-start-rgb);
-  background-image: url("/grain.svg"),
+  background-image: 
+    url("/grain.svg"),
     radial-gradient(
       circle farthest-corner at top,
       #151515 0%,
-      var(--background-start-rgb) 50%
+      var(--background-start-rgb) 30%
     );
   background-repeat: repeat, no-repeat;
   background-blend-mode: overlay, normal;
