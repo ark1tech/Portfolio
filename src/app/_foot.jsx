@@ -9,7 +9,7 @@ export default function Foot() {
   return (
     <footer className=" relative overflow-clip">
       <Image
-        className="z-0 z-0 px-[2rem] w-[1200px] h-auto absolute left-0 right-0 bottom-0 mx-auto md:block hidden"
+        className="z-0 px-[2rem] w-[1200px] h-auto absolute left-0 right-0 bottom-0 mx-auto md:block hidden"
         src="/static/images/rkbm_bg.svg"
         width={1346}
         height={461}

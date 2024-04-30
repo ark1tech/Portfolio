@@ -135,7 +135,7 @@ footer {
   background-image: radial-gradient(
     ellipse farthest-side at bottom,
     #000000 70%,
-    #181818 220%
+    #181818 1300px
   );
   background-repeat: no-repeat;
   background-blend-mode: normal;
@@ -147,7 +147,7 @@ footer {
 }
 
 .try {
-  animation: background-pan2 20s linear infinite;
+  /* animation: background-pan2 20s linear infinite; */
   background-image: radial-gradient(
     ellipse farthest-side at top,
     #00000000 50%,
