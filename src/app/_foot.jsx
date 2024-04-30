@@ -7,14 +7,13 @@ import Link from "next/link";
 
 export default function Foot() {
   return (
-    <footer className=" relative overflow-clip">
+    <footer className="border-t border-[#262626] relative overflow-clip">
       <Image
         className="z-10 px-[2rem] w-[1200px] h-auto absolute left-0 right-0 bottom-0 mx-auto md:block hidden"
         src="/static/images/rkbm_bg.svg"
         width={1346}
         height={461}
         quality={100}
-        placeholder="blur"
         loading="lazy"
         alt="Picture of the author"
       />
@@ -24,7 +23,6 @@ export default function Foot() {
         width={1346}
         height={461}
         quality={100}
-        placeholder="blur"
         loading="lazy"
         alt="Picture of the author"
       />

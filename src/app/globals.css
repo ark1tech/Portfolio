@@ -135,7 +135,7 @@ footer {
   background-image: radial-gradient(
     ellipse farthest-side at bottom,
     #000000 70%,
-    #242424 1200px
+    #242424 1500px
   );
   background-repeat: no-repeat;
   background-blend-mode: normal;
@@ -153,7 +153,7 @@ footer > img {
 }
 
 footer:hover > img {
-  filter: drop-shadow(0px 0px 5px #ffffff);
+  filter: drop-shadow(0px 0px 5px #e1dede);
 }
 
 /* footer > img {
