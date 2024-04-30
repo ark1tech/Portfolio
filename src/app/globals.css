@@ -135,7 +135,7 @@ footer {
   background-image: radial-gradient(
     ellipse farthest-side at bottom,
     #000000 70%,
-    #181818 1300px
+    #242424 200%
   );
   background-repeat: no-repeat;
   background-blend-mode: normal;
@@ -145,26 +145,30 @@ footer {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 500ms; */
 }
-
-.try {
-  /* animation: background-pan2 20s linear infinite; */
-  background-image: radial-gradient(
-    ellipse farthest-side at top,
-    #00000000 50%,
-    #49454343 500%
-  );
-  background-size: 100svw 10%;
-  background-repeat: repeat-y;
-  white-space: nowrap;
+/* 
+footer > img {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
 }
 
-@keyframes background-pan2 {
-  from {
-    background-position: 0% top;
-  }
+footer:hover > img {
+  filter: drop-shadow(0px 0px 5px #ffffff);
+} */
 
-  to {
-    background-position: -100% bottom;
+footer > img {
+  animation: background-light 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes background-light {
+  0% {
+    filter: none;
+  }
+  50% {
+    filter: drop-shadow(0px 0px 5px #ffffff);
+  }
+  100% {
+    filter: none;
   }
 }
 

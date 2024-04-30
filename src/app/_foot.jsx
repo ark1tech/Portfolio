@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FiArrowUpRight } from "react-icons/fi";
-import { CiHeart } from "react-icons/ci";
+import { IoMdHeart } from "react-icons/io";
 import { FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import Link from "next/link";
@@ -9,7 +9,7 @@ export default function Foot() {
   return (
     <footer className=" relative overflow-clip">
       <Image
-        className="z-0 px-[2rem] w-[1200px] h-auto absolute left-0 right-0 bottom-0 mx-auto md:block hidden"
+        className="z-10 px-[2rem] w-[1200px] h-auto absolute left-0 right-0 bottom-0 mx-auto md:block hidden"
         src="/static/images/rkbm_bg.svg"
         width={1346}
         height={461}
@@ -27,8 +27,15 @@ export default function Foot() {
       <div className="absolute w-full h-[100svh] try z-1"></div>
       <div className="relative z-10 foot w-full flex flex-col mt-[3rem] mb-[19rem] gap-[2rem]">
         <div className="flex flex-row justify-between gap-[1rem]">
-          <p className="text-xs text-[#303030] text-pretty">
-            Made with <CiHeart className="inline" /> by Arki
+          <p className="text-xs text-[#303030] text-pretty inline-flex">
+            Made with
+            &nbsp;
+            <span className="inline-flex relative flex-col">
+              <IoMdHeart className="absolute m-auto bottom-0 top-0 animate-ping" />
+              <IoMdHeart className="relative m-auto top-0" />
+            </span>
+            &nbsp;
+            by Arki
           </p>
           <div className="flex flex-row gap-[2rem] items-center">
             <Link href="/">
