@@ -145,7 +145,7 @@ footer {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 500ms; */
 }
-/* 
+
 footer > img {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -154,9 +154,9 @@ footer > img {
 
 footer:hover > img {
   filter: drop-shadow(0px 0px 5px #ffffff);
-} */
+}
 
-footer > img {
+/* footer > img {
   animation: background-light 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
 
@@ -170,7 +170,7 @@ footer > img {
   100% {
     filter: none;
   }
-}
+} */
 
 /* footer:hover {
   animation: background-pan2 2s linear infinite;

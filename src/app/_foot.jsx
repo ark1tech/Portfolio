@@ -14,6 +14,8 @@ export default function Foot() {
         width={1346}
         height={461}
         quality={100}
+        placeholder="blur"
+        loading="lazy"
         alt="Picture of the author"
       />
       <Image
@@ -22,6 +24,8 @@ export default function Foot() {
         width={1346}
         height={461}
         quality={100}
+        placeholder="blur"
+        loading="lazy"
         alt="Picture of the author"
       />
       <div className="absolute w-full h-[100svh] try z-1"></div>
