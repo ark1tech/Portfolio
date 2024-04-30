@@ -132,23 +132,40 @@ footer {
   height: auto;
   display: flex;
   flex-direction: col;
-  /* background-image: url("/grain.svg"),
-    radial-gradient(ellipse farthest-side at bottom, #000000 0px, #111111 1300px);
-  background-repeat: repeat, no-repeat;
-  background-blend-mode: overlay, normal;
-  background-size: 40%, 100%; */
-  animation: background-pan2 4s linear infinite;
   background-image: radial-gradient(
-    ellipse farthest-corner at bottom,
-    #9e4103 -300%,
-    #000000 50%
+    ellipse farthest-side at bottom,
+    #000000 70%,
+    #181818 220%
   );
-  background-size: 200%;
-  white-space: nowrap;
+  background-repeat: no-repeat;
+  background-blend-mode: normal;
+  background-size: 100%;
 
-  transition-property: all;
+  /* transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 500ms;
+  transition-duration: 500ms; */
+}
+
+.try {
+  animation: background-pan2 20s linear infinite;
+  background-image: radial-gradient(
+    ellipse farthest-side at top,
+    #00000000 50%,
+    #49454343 500%
+  );
+  background-size: 100svw 10%;
+  background-repeat: repeat-y;
+  white-space: nowrap;
+}
+
+@keyframes background-pan2 {
+  from {
+    background-position: 0% top;
+  }
+
+  to {
+    background-position: -100% bottom;
+  }
 }
 
 /* footer:hover {
@@ -296,16 +313,6 @@ h1 {
 }
 
 @keyframes background-pan {
-  from {
-    background-position: 0% center;
-  }
-
-  to {
-    background-position: -200% center;
-  }
-}
-
-@keyframes background-pan2 {
   from {
     background-position: 0% center;
   }

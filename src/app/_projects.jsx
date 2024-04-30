@@ -1,6 +1,7 @@
 "use client";
 
 import { Tabs, rem, MantineProvider } from "@mantine/core";
+import { motion } from "framer-motion";
 import {
   IconIcons,
   IconBrowser,
@@ -45,19 +46,44 @@ export default function Projects() {
         </Tabs.List>
 
         <Tabs.Panel value="websites">
-          <WebMasonry />
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1 }}>
+            <WebMasonry />
+          </motion.div>
         </Tabs.Panel>
         <Tabs.Panel value="brand">
-          <BrandMasonry />
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}>
+            <BrandMasonry />
+          </motion.div>
         </Tabs.Panel>
         <Tabs.Panel value="prototypes">
-          <ProtoMasonry />
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}>
+            <ProtoMasonry />
+          </motion.div>
         </Tabs.Panel>
         <Tabs.Panel value="pubmats">
-          <PubMasonry />
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}>
+            <PubMasonry />
+          </motion.div>
         </Tabs.Panel>
         <Tabs.Panel value="video">
-          <VidMasonry />
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}>
+            <VidMasonry />
+          </motion.div>
         </Tabs.Panel>
       </Tabs>
     </MantineProvider>
