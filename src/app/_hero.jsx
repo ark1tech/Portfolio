@@ -47,7 +47,7 @@ export default function Hero() {
               target="_blank">
               my fave The Ridleys songs
             </a>{" "}
-            while admiring{" "}
+            and admiring{" "}
             <span className="kalachuchi cursor-grabbing">
               the kalachuchi flowers along the way
             </span>{" "}
