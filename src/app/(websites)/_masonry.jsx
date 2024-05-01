@@ -71,7 +71,6 @@ export default function Masonry() {
                 transitionProps={{ transition: "pop", duration: 300 }}>
                 <a
                   className="flex flex-row items-center gap-[0.5rem] cursor-not-allowed text-[#565252]"
-                  href="https://www.linkedin.com/in/ark1tech/"
                   target="_blank">
                   <span>Case study</span>{" "}
                   <FiArrowUpRight className="icon rotate-[45deg]" />
@@ -137,7 +136,6 @@ export default function Masonry() {
                 transitionProps={{ transition: "pop", duration: 300 }}>
                 <a
                   className="flex flex-row items-center gap-[0.5rem] cursor-not-allowed text-[#565252]"
-                  href="https://www.linkedin.com/in/ark1tech/"
                   target="_blank">
                   <span>Case study</span>{" "}
                   <FiArrowUpRight className="icon rotate-[45deg]" />
@@ -203,7 +201,6 @@ export default function Masonry() {
                 transitionProps={{ transition: "pop", duration: 300 }}>
                 <a
                   className="flex flex-row items-center gap-[0.5rem] cursor-not-allowed text-[#565252]"
-                  href="https://www.linkedin.com/in/ark1tech/"
                   target="_blank">
                   <span>Case study</span>{" "}
                   <FiArrowUpRight className="icon rotate-[45deg]" />
@@ -270,7 +267,6 @@ export default function Masonry() {
                 transitionProps={{ transition: "pop", duration: 300 }}>
                 <a
                   className="flex flex-row items-center gap-[0.5rem] cursor-not-allowed text-[#565252]"
-                  href="https://www.linkedin.com/in/ark1tech/"
                   target="_blank">
                   <span>Case study</span>{" "}
                   <FiArrowUpRight className="icon rotate-[45deg]" />

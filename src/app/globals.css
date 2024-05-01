@@ -206,6 +206,9 @@ footer:hover > img {
   main {
     max-width: 640px;
   }
+  a, p {
+    font-size: 1rem;
+  }
 }
 
 /* sm */
@@ -216,6 +219,9 @@ footer:hover > img {
   main {
     width: 100%;
   }
+  a, p {
+    font-size: 0.9rem;
+  }
 }
 
 /* xs */
@@ -225,6 +231,9 @@ footer:hover > img {
   nav,
   main {
     width: 100%;
+  }
+  a, p {
+    font-size: 0.9rem;
   }
 }
 
@@ -251,14 +260,12 @@ h4 {
 p {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   color: var(--body-text);
-  font-size: 1rem;
   text-wrap: pretty;
 }
 
 a {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   color: rgb(240, 240, 240);
-  font-size: 1rem;
   text-wrap: pretty;
 }
 
@@ -304,8 +311,8 @@ h1 {
   transition-duration: 150ms;
 }
 
-.kalachuchi:hover ~ .chuchi {
-  animation: rotate 3s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+.chuchi {
+  animation: rotate 3s cubic-bezier(.21,.89,.79,.98) infinite;
 }
 
 /* Background Gradient */
