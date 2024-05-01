@@ -19,16 +19,24 @@ import VidMasonry from "./(video)/masonry.jsx";
 export default function Projects() {
   const iconStyle = { width: rem(12), height: rem(12) };
   return (
-    <MantineProvider defaultColorScheme="dark">
-      <Tabs color="orange" defaultValue="websites">
-        <Tabs.List grow justify="space-between">
+    <MantineProvider
+      defaultColorScheme="dark"
+      theme={{
+        fontFamily: "Inter, sans-serif",
+      }}>
+      <Tabs color="orange" defaultValue="brand">
+        <Tabs.List
+          grow
+          justify="space-between"
+          color="gray"
+          className="text-[#9f9f9e] ">
+          <Tabs.Tab value="brand" leftSection={<IconIcons style={iconStyle} />}>
+            Brand
+          </Tabs.Tab>
           <Tabs.Tab
             value="websites"
             leftSection={<IconBrowser style={iconStyle} />}>
             Websites
-          </Tabs.Tab>
-          <Tabs.Tab value="brand" leftSection={<IconIcons style={iconStyle} />}>
-            Brand
           </Tabs.Tab>
           <Tabs.Tab
             value="prototypes"
@@ -38,11 +46,11 @@ export default function Projects() {
           <Tabs.Tab
             value="pubmats"
             leftSection={<IconPhoto style={iconStyle} />}>
-            Promotionals
+            Promos
           </Tabs.Tab>
-          <Tabs.Tab value="video" leftSection={<IconMovie style={iconStyle} />}>
+          {/* <Tabs.Tab value="video" leftSection={<IconMovie style={iconStyle} />}>
             Video Editing
-          </Tabs.Tab>
+          </Tabs.Tab> */}
         </Tabs.List>
 
         <Tabs.Panel value="websites">
@@ -77,14 +85,14 @@ export default function Projects() {
             <PubMasonry />
           </motion.div>
         </Tabs.Panel>
-        <Tabs.Panel value="video">
+        {/* <Tabs.Panel value="video">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5 }}>
             <VidMasonry />
           </motion.div>
-        </Tabs.Panel>
+        </Tabs.Panel> */}
       </Tabs>
     </MantineProvider>
   );

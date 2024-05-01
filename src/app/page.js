@@ -6,11 +6,9 @@ import Footer from "./_foot";
 export default function Home() {
   return (
     <>
-      <main className="min-h-[100svh] w-full flex flex-col gap-[4rem]">
+      <main className="gap-[4rem] min-h-[100svh] w-full flex flex-col test0">
         <Hero />
-        <div className="min-h-[90svh]">
-          <Projects />
-        </div>
+        <Projects />
       </main>
       <div className="mt-[8rem]">
         <Footer />

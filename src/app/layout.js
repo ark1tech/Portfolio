@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         <ColorSchemeScript forceColorScheme="dark" />
       </head>
       <body className="font-['Roboto']">
-        <div className="container flex flex-col gap-[0rem] items-center min-h-[100svh]">
+        <div className="container flex flex-col items-center">
           <NavBar />
           {children}
         </div>
