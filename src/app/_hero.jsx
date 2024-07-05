@@ -64,7 +64,7 @@ export default function Hero() {
           </a>.
         </p>
         <p className="text-xs text-[#505050] font-['JetBrains_Mono'] w-full text-justify text-pretty">
-          &#47;&#47; This serves as my temporary portfolio while I'm revamping
+          &#47;&#47; This serves as my temporary portfolio while I&rsquo;m revamping
           the{" "}
           <a
             className="text-xs text-[#505050] font-['JetBrains_Mono'] underline-offset-2 underline hover:text-[#a8a8a8] transition-all text-balance"
