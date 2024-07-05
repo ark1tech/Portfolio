@@ -36,8 +36,10 @@ export default function Hero() {
           organizations at the University of the Philippines Diliman.
         </p>
         <p>
-          My passion lies in fusing my skills in marketing and programming to
-          build web apps that are pretty and practical. It&rsquo;s my ultimate dream to make tech innovations that truly matter to communities.
+          My passion lies in fusing my marketing and programming skills to
+          develop web apps that solve problems in the most enjoyable experience.
+          It&rsquo;s my ultimate dream to make tech innovations that truly
+          matter to communities.
         </p>
         <p>
           On the side, I run with friends and play with my cat. I listen to{" "}
@@ -55,17 +57,19 @@ export default function Hero() {
             width={80}
             height={80}
             alt="Picture of the author"
-          />, and I think you should listen to {" "}
+          />
+          , and I think you should listen to{" "}
           <a
             className="text-inherit hover:text-white transition-all cursor-help"
             href="https://open.spotify.com/track/7xSxOOtNh9bnFSqNgry7vB"
             target="_blank">
             Kalachuchi by Munimuni
-          </a>.
+          </a>
+          .
         </p>
         <p className="text-xs text-[#505050] font-['JetBrains_Mono'] w-full text-justify text-pretty">
-          &#47;&#47; This serves as my temporary portfolio while I&rsquo;m revamping
-          the{" "}
+          &#47;&#47; This serves as my temporary portfolio while I&rsquo;m
+          revamping the{" "}
           <a
             className="text-xs text-[#505050] font-['JetBrains_Mono'] underline-offset-2 underline hover:text-[#a8a8a8] transition-all text-balance"
             href="https://temp.arkimanago.com"
