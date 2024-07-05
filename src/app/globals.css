@@ -328,15 +328,6 @@ h1 {
   --pink: rgb(244, 215, 143);
 }
 
-@keyframes background-pan {
-  from {
-    background-position: 0% center;
-  }
-
-  to {
-    background-position: -200% center;
-  }
-}
 
 @keyframes scale {
   from,
@@ -359,8 +350,18 @@ h1 {
   }
 }
 
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
+}
+
 .magic-text {
-  animation: background-pan 2s linear infinite;
+  animation: background-pan 4s linear infinite;
   background: linear-gradient(
     to right,
     var(--violet),
