@@ -43,11 +43,6 @@ export default function Projects() {
             leftSection={<IconRobot style={iconStyle} />}>
             Prototypes
           </Tabs.Tab>
-          <Tabs.Tab
-            value="pubmats"
-            leftSection={<IconPhoto style={iconStyle} />}>
-            Promos
-          </Tabs.Tab>
           {/* <Tabs.Tab value="video" leftSection={<IconMovie style={iconStyle} />}>
             Video Editing
           </Tabs.Tab> */}

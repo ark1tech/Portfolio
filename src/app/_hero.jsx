@@ -49,8 +49,15 @@ export default function Hero() {
             target="_blank">
             The Ridleys
           </a>{" "}
-          and other OPM artists an unhealthy amount. My favorite flower is{" "}
-          <span className="kalachuchi cursor-grabbing">kalachuchi</span>{" "}
+          and other OPM artists an unhealthy amount. And since you&rsquo;re
+          already here, you should listen to{" "}
+          <a
+            className="hover:text-white text-inherit  transition-all cursor-help"
+            href="https://open.spotify.com/track/7xSxOOtNh9bnFSqNgry7vB"
+            target="_blank">
+            Kalachuchi by Munimuni
+          </a>
+          , featuring my favorite flower!{" "}
           <Image
             className="w-[20px] h-[20px] inline mx-[0.1rem] rotate-45 chuchi"
             src="/static/images/kalachuchi.png"
@@ -58,25 +65,6 @@ export default function Hero() {
             height={80}
             alt="Picture of the author"
           />
-          , and I think you should listen to{" "}
-          <a
-            className="text-inherit hover:text-white transition-all cursor-help"
-            href="https://open.spotify.com/track/7xSxOOtNh9bnFSqNgry7vB"
-            target="_blank">
-            Kalachuchi by Munimuni
-          </a>
-          .
-        </p>
-        <p className="text-xs text-[#505050] font-['JetBrains_Mono'] w-full text-justify text-pretty">
-          &#47;&#47; This serves as my temporary portfolio while I&rsquo;m
-          revamping the{" "}
-          <a
-            className="text-xs text-[#505050] font-['JetBrains_Mono'] underline-offset-2 underline hover:text-[#a8a8a8] transition-all text-balance"
-            href="https://temp.arkimanago.com"
-            target="_blank">
-            old one
-          </a>
-          .
         </p>
       </div>
       <div className="flex flex-row gap-[2rem]">
