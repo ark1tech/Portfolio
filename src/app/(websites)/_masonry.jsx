@@ -22,6 +22,70 @@ export default function Masonry() {
           .
         </p> */}
 
+<div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
+          <Image
+            className="w-full h-auto"
+            src="/static/images/pilipinuts.png"
+            width={694}
+            height={214}
+            alt="Picture of the author"
+            quality={100}
+          />
+          <div className="card">
+            <div className="flex flex-col gap-[0.5rem] w-full">
+              <div className="flex flex-wrap justify-between items-center gap-[0.5rem]">
+                <p className="text-xs text-[#505050] w-full text-left text-pretty">
+                  August 2024
+                </p>
+                <h4>PilipiNuts 2023</h4>
+                <div className="flex flex-row gap-[0.5rem] text-[#575757]">
+                  <RiSvelteFill className="" />
+                  <SiTailwindcss className="" />
+                  <Tooltip
+                    color="dark"
+                    label="View on GitHub"
+                    offset={10}
+                    position="top"
+                    withArrow="true"
+                    transitionProps={{ transition: "pop", duration: 300 }}>
+                    <a
+                      className="inline_link transition-all"
+                      href="https://github.com/ark1tech/CS132-master-portfolio"
+                      target="_blank">
+                      <FaGithub />
+                    </a>
+                  </Tooltip>
+                </div>
+              </div>
+              <p>
+                A portfolio website of data science projects tackling the Sustainable Development Goals in the Philippines.
+              </p>
+            </div>
+            <div className="w-full flex flex-row justify-end gap-[1rem]">
+              <Tooltip
+                color="dark"
+                label="Work in progress"
+                offset={20}
+                position="left"
+                transitionProps={{ transition: "pop", duration: 300 }}>
+                <a
+                  className="flex flex-row items-center gap-[0.5rem] cursor-not-allowed text-[#565252]"
+                  target="_blank">
+                  <span>Case study</span>{" "}
+                  <FiArrowUpRight className="icon rotate-[45deg]" />
+                </a>
+              </Tooltip>
+              <a
+                className="inline_link"
+                href="https://pilipinuts.netlify.app/"
+                target="_blank">
+                <span>Execution</span>{" "}
+                <FiArrowUpRight className="icon rotate-[45deg]" />
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
           <Image
             className="w-full h-auto"
@@ -208,7 +272,7 @@ export default function Masonry() {
               </Tooltip>
               <a
                 className="inline_link"
-                href="https://geandkrish.com"
+                href="https://geandkrish.netlify.app"
                 target="_blank">
                 <span>Execution</span>{" "}
                 <FiArrowUpRight className="icon rotate-[45deg]" />

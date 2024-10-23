@@ -5,7 +5,7 @@ import Footer from "./_foot";
 
 export default function Home() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <main className="gap-[4rem] min-h-[100svh] w-full flex flex-col test0">
         <Hero />
         <Projects />
@@ -24,6 +24,6 @@ export default function Home() {
       <div className="mt-[4rem]">
         <Footer />
       </div>
-    </>
+    </div>
   );
 }

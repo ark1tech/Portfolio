@@ -24,19 +24,19 @@ export default function Projects() {
       theme={{
         fontFamily: "Inter, sans-serif",
       }}>
-      <Tabs color="orange" defaultValue="brand">
+      <Tabs color="orange" defaultValue="websites">
         <Tabs.List
           grow
           justify="space-between"
           color="gray"
           className="text-[#9f9f9e] ">
-          <Tabs.Tab value="brand" leftSection={<IconIcons style={iconStyle} />}>
-            Brand
-          </Tabs.Tab>
           <Tabs.Tab
             value="websites"
             leftSection={<IconBrowser style={iconStyle} />}>
             Websites
+          </Tabs.Tab>
+          <Tabs.Tab value="brand" leftSection={<IconIcons style={iconStyle} />}>
+            Brand
           </Tabs.Tab>
           <Tabs.Tab
             value="prototypes"

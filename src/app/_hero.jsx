@@ -18,15 +18,15 @@ export default function Hero() {
               Arki Mañago
             </h1>
           </div>
-          <h5 className="w-full">Student Leader · Frontend Developer</h5>
+          <h5 className="w-full">Frontend Developer · Designer</h5>
         </div>
       </div>
       <div className="w-full gap-[1rem] flex flex-col test3">
         <p>
-          Hello! I&rsquo;m Arki, and I build designs that{" "}
+          Hello! I&rsquo;m Arki, and I make{" "}
           {/* #text:has(.anime-title:hover) .word:not(.anime-title) {opacity: 0.2;} */}
           <span id="uncensored" className="magic-text uncensored">
-            tell stories with magic and logic
+            designs that tell stories with magic and logic
           </span>
           .
         </p>
@@ -49,7 +49,7 @@ export default function Hero() {
             target="_blank">
             The Ridleys
           </a>{" "}
-          and other OPM artists an unhealthy amount. And since you&rsquo;re
+          and other Filipino artists an unhealthy amount. And since you&rsquo;re
           already here, you should listen to{" "}
           <a
             className="hover:text-white text-inherit  transition-all cursor-help"
