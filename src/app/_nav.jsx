@@ -17,13 +17,13 @@ export default function NavBar() {
         <Link href="/blog" className="navtext">
           Blog
         </Link>
-        <a
+        {/* <a
           href="./CV.pdf"
           target="_blank"
           type="application/pdf"
           className="navtext">
           Resume
-        </a>
+        </a> */}
       </div>
     </nav>
   );
