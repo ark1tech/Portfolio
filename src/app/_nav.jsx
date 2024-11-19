@@ -13,7 +13,7 @@ export default function NavBar() {
           alt="Picture of the author"
         />
       </Link>
-      <div className="flex flex-row justify-between items-center gap-[1rem]">
+      <div className="flex flex-row justify-between items-center gap-[1.75rem]">
         <a
           href="./CV.pdf"
           target="_blank"
