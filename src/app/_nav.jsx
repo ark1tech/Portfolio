@@ -14,16 +14,16 @@ export default function NavBar() {
         />
       </Link>
       <div className="flex flex-row justify-between items-center gap-[1rem]">
-        <Link href="/blog" className="navtext">
-          Blog
-        </Link>
-        {/* <a
+        <a
           href="./CV.pdf"
           target="_blank"
           type="application/pdf"
           className="navtext">
-          Resume
-        </a> */}
+          CV
+        </a>
+        <Link href="/blog" className="navtext">
+          Blog
+        </Link>
       </div>
     </nav>
   );
