@@ -26,7 +26,7 @@ export default function Hero() {
           Hello! I&rsquo;m Arki, and I make{" "}
           {/* #text:has(.anime-title:hover) .word:not(.anime-title) {opacity: 0.2;} */}
           <span id="uncensored" className="magic-text uncensored">
-            designs that tell stories with magic and logic
+            designs with magic and logic
           </span>
           .
         </p>
