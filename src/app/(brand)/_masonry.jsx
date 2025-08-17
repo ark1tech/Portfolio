@@ -42,7 +42,7 @@ export default function Masonry() {
               </Tooltip>
               <a
                 className="inline_link"
-                href="https://broughtby.us/"
+                href="https://broughtby.netlify.app/"
                 target="_blank">
                 <span>Execution</span>{" "}
                 <FiArrowUpRight className="icon rotate-[45deg]" />
