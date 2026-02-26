@@ -30,10 +30,15 @@ export default function Hero() {
           .
         </p>
         <p>
-          Comp sci student at UP Diliman who codes and designs. I like nitpicking every detail until it actually feels right because I believe good design lives in the details that are easy to miss and hard to unsee once you notice them.
+          Comp sci student at UP Diliman who codes and designs. I like
+          nitpicking every detail until it actually feels right as I
+          believe good design lives in the details that are easy to miss and
+          hard to unsee once you notice them :)
         </p>
         <p>
-          I care deeply about how people interact with products - that it&rsquo;s accessible, feels good, and satisfying to navigate while serving its purpose.
+          I care deeply about how people interact with products - that
+          it&rsquo;s accessible, feels good, and satisfying to navigate while
+          serving its purpose.
           <Image
             className="w-[20px] h-[20px] inline mx-[0.2rem] rotate-45 chuchi"
             src="/static/images/kalachuchi.png"
@@ -68,17 +73,18 @@ export default function Hero() {
           />
         </p> */}
       </div>
-      <div className="flex flex-row gap-[2rem]">
-        <a
-          className="inline_link font-[500]"
-          href="https://www.linkedin.com/in/ark1tech/"
-          target="_blank">
-          <span className="">
-            Let&rsquo;s build something beautiful and useful!{" "}
+      <a
+        className="inline_link font-[500]"
+        href="https://www.linkedin.com/in/ark1tech/"
+        target="_blank">
+          <span className="flex-1">
+            Let&rsquo;s build something beautiful and{" "}
+            <span className="inline-flex items-center gap-1 whitespace-nowrap">
+              useful!
+              <FiArrowUpRight className="icon rotate-[45deg]" />
+            </span>
           </span>
-          <FiArrowUpRight className="icon rotate-[45deg] -ml-1" />
-        </a>
-      </div>
+      </a>
     </div>
   );
 }

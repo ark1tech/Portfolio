@@ -2,11 +2,7 @@
 
 import { Tabs, rem, MantineProvider } from "@mantine/core";
 import { motion } from "framer-motion";
-import {
-  IconBrowser,
-  IconPackage,
-  IconPalette,
-} from "@tabler/icons-react";
+import { IconBrowser, IconPackage, IconPalette } from "@tabler/icons-react";
 
 import DesignMasonry from "./(design)/_masonry.jsx";
 import ProductMasonry from "./(product)/_masonry.jsx";
@@ -29,15 +25,17 @@ export default function Projects() {
           <Tabs.Tab
             value="websites"
             leftSection={<IconBrowser style={iconStyle} />}>
-            Websites
+            <span className="hidden min-[392px]:inline">Websites</span>
+          </Tabs.Tab>
+          <Tabs.Tab
+            value="design"
+            leftSection={<IconPalette style={iconStyle} />}>
+            <span className="hidden min-[392px]:inline">Design</span>
           </Tabs.Tab>
           <Tabs.Tab
             value="product"
             leftSection={<IconPackage style={iconStyle} />}>
-            Product
-          </Tabs.Tab>
-          <Tabs.Tab value="design" leftSection={<IconPalette style={iconStyle} />}>
-            Design
+            <span className="hidden min-[392px]:inline">Product</span>
           </Tabs.Tab>
         </Tabs.List>
 

@@ -89,8 +89,7 @@ body {
 }
 
 .full_card > img {
-  opacity: 30%;
-  filter: saturate(0);
+  opacity: 90%;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 500ms;
@@ -98,7 +97,7 @@ body {
 
 .full_card:hover > img {
   opacity: 100%;
-  filter: saturate(1);
+  filter: saturate(1.4);
 }
 
 @layer utilities {
@@ -297,9 +296,16 @@ h1 {
   gap: 0.5rem;
   align-items: center;
   text-decoration: none;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 100ms;
 }
 
-.inline_link:hover > svg {
+.inline_link .icon {
+  display: inline-block;
+}
+
+.inline_link:hover .icon {
   --tw-rotate: -0deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y))
     rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
@@ -310,11 +316,11 @@ h1 {
   color: var(--main-color);
 }
 
-.inline_link > span,
-.inline_link > svg {
+.inline_link span,
+.inline_link svg {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  transition-duration: 100ms;
 }
 
 .chuchi {
