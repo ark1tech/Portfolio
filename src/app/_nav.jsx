@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <nav className="py-[2.5rem] flex flex-row justify-between items-center ">
+    <nav className="py-[2rem] flex flex-row justify-between items-center ">
       <Link href="/">
         <Image
           className="hover:drop-shadow-[0_0_6px_#ef542bAF] hover:rotate-90  transition-all"

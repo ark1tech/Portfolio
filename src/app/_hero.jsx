@@ -31,11 +31,10 @@ export default function Hero() {
         </p>
         <p>
           I believe good design lives in the details that are easy to miss and (as it turns out)
-          hard to unsee. I also care deeply about how people interact with products - that
-          it&rsquo;s accessible, feels good, and satisfying to navigate while
-          serving its purpose.
+          hard to unsee. I care deeply about how people interact with products - that
+          it&rsquo;s accessible, practical, and most importantly feels good.
           <Image
-            className="w-[20px] h-[20px] inline mx-[0.2rem] rotate-45 chuchi"
+            className="w-[20px] h-[20px] inline mx-[0.4rem] rotate-45 chuchi"
             src="/static/images/kalachuchi.png"
             width={80}
             height={80}
@@ -43,9 +42,9 @@ export default function Hero() {
           />
         </p>
         <p>
-          When I&rsquo;m not obsessing over tech, I mostly spend time finishing my computer science degree at UP Diliman. I also started learning Japanese (currently N4) since doing a student exchange program in Kyoto. Sometimes I play with my grumpy cat!{" "}
+          On the side, I mostly spend time finishing my computer science degree at UP Diliman. I&rsquo;ve also been studying Japanese (N4) since my student exchange in Kyoto. Sometimes I play with my grumpy cat!{" "}
           <Image
-            className="w-[20px] h-[20px] inline mx-[0.2rem] chuchi-cat"
+            className="w-[20px] h-[20px] inline mx-[0.2rem]"
             src="/static/images/maki.png"
             width={80}
             height={80}
