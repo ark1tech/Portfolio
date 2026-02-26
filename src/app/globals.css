@@ -10,7 +10,7 @@
   --background-end-rgb: rgb(255, 255, 255);
   --main-color: #ef542b;
   --content-width: 700px;
-  --body-text: rgb(159, 159, 158);
+  --body-text: rgb(179, 179, 179);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,7 +22,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 10px;
   height: 3px;
 }
 ::-webkit-scrollbar-track {
@@ -126,7 +126,7 @@ main,
   max-width: var(--content-width);
   margin-left: auto;
   margin-right: auto;
-  padding: 0 2.5rem 0 2.5rem;
+  padding: 0 1rem 0 1rem;
 }
 
 footer {
@@ -152,10 +152,11 @@ footer > img {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 500ms;
+  filter: brightness(1.6) drop-shadow(0px 0px 10px #e1dede);
 }
 
 footer:hover > img {
-  filter: drop-shadow(0px 0px 5px #e1dede);
+  filter: brightness(1.6) drop-shadow(0px 0px 2px #e1dede);
 }
 
 /* footer > img {
@@ -248,9 +249,9 @@ nav {
 
 h5 {
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 200;
-  color: rgb(240, 240, 240);
+  color: rgb(198, 198, 198);
   /* color: var(--main-color); */
 }
 
@@ -286,7 +287,7 @@ a {
 h1 {
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
   color: rgb(255, 255, 255);
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 
@@ -327,6 +328,10 @@ h1 {
   animation: rotate 3s cubic-bezier(0.21, 0.89, 0.79, 0.98) infinite;
 }
 
+.chuchi-cat {
+  animation: cat-tilt 1.2s ease-in-out infinite;
+}
+
 /* Background Gradient */
 
 :root {
@@ -353,6 +358,20 @@ h1 {
 
   to {
     transform: rotate(405deg);
+  }
+}
+
+@keyframes cat-tilt {
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
   }
 }
 

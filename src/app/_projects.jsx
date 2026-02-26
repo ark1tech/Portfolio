@@ -25,17 +25,17 @@ export default function Projects() {
           <Tabs.Tab
             value="websites"
             leftSection={<IconBrowser style={iconStyle} />}>
-            <span className="hidden min-[392px]:inline">Websites</span>
+            <span className="hidden min-[345px]:inline">Websites</span>
           </Tabs.Tab>
           <Tabs.Tab
             value="design"
             leftSection={<IconPalette style={iconStyle} />}>
-            <span className="hidden min-[392px]:inline">Design</span>
+            <span className="hidden min-[345px]:inline">Design</span>
           </Tabs.Tab>
           <Tabs.Tab
             value="product"
             leftSection={<IconPackage style={iconStyle} />}>
-            <span className="hidden min-[392px]:inline">Product</span>
+            <span className="hidden min-[345px]:inline">Product</span>
           </Tabs.Tab>
         </Tabs.List>
 

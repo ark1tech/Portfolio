@@ -23,25 +23,30 @@ export default function Hero() {
       </div>
       <div className="w-full gap-[1rem] flex flex-col test3">
         <p>
-          I&rsquo;m Arki, and I love building products where{" "}
+          I&rsquo;m Arki, and I looove building stuff where{" "}
           <span id="uncensored" className="magic-text uncensored">
             good engineering meets good taste
           </span>
           .
         </p>
         <p>
-          Comp sci student at UP Diliman who codes and designs. I like
-          nitpicking every detail until it actually feels right as I
-          believe good design lives in the details that are easy to miss and
-          hard to unsee once you notice them :)
-        </p>
-        <p>
-          I care deeply about how people interact with products - that
+          I believe good design lives in the details that are easy to miss and (as it turns out)
+          hard to unsee. I also care deeply about how people interact with products - that
           it&rsquo;s accessible, feels good, and satisfying to navigate while
           serving its purpose.
           <Image
             className="w-[20px] h-[20px] inline mx-[0.2rem] rotate-45 chuchi"
             src="/static/images/kalachuchi.png"
+            width={80}
+            height={80}
+            alt="Picture of the author"
+          />
+        </p>
+        <p>
+          When I&rsquo;m not obsessing over tech, I mostly spend time finishing my computer science degree at UP Diliman. I also started learning Japanese (currently N4) since doing a student exchange program in Kyoto. Sometimes I play with my grumpy cat!{" "}
+          <Image
+            className="w-[20px] h-[20px] inline mx-[0.2rem] chuchi-cat"
+            src="/static/images/maki.png"
             width={80}
             height={80}
             alt="Picture of the author"
@@ -80,7 +85,7 @@ export default function Hero() {
           <span className="flex-1">
             Let&rsquo;s build something beautiful and{" "}
             <span className="inline-flex items-center gap-1 whitespace-nowrap">
-              useful!
+              useful
               <FiArrowUpRight className="icon rotate-[45deg]" />
             </span>
           </span>
