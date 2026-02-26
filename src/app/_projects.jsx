@@ -3,18 +3,14 @@
 import { Tabs, rem, MantineProvider } from "@mantine/core";
 import { motion } from "framer-motion";
 import {
-  IconIcons,
   IconBrowser,
-  IconPhoto,
-  IconRobot,
-  IconMovie,
+  IconPackage,
+  IconPalette,
 } from "@tabler/icons-react";
 
-import BrandMasonry from "./(brand)/_masonry.jsx";
-import ProtoMasonry from "./(prototype)/_masonry.jsx";
+import DesignMasonry from "./(design)/_masonry.jsx";
+import ProductMasonry from "./(product)/_masonry.jsx";
 import WebMasonry from "./(websites)/_masonry.jsx";
-import PubMasonry from "./(pubmats)/masonry.jsx";
-import VidMasonry from "./(video)/masonry.jsx";
 
 export default function Projects() {
   const iconStyle = { width: rem(12), height: rem(12) };
@@ -35,19 +31,24 @@ export default function Projects() {
             leftSection={<IconBrowser style={iconStyle} />}>
             Websites
           </Tabs.Tab>
-          <Tabs.Tab value="brand" leftSection={<IconIcons style={iconStyle} />}>
-            Brand
-          </Tabs.Tab>
           <Tabs.Tab
-            value="prototypes"
-            leftSection={<IconRobot style={iconStyle} />}>
-            Prototypes
+            value="product"
+            leftSection={<IconPackage style={iconStyle} />}>
+            Product
           </Tabs.Tab>
-          {/* <Tabs.Tab value="video" leftSection={<IconMovie style={iconStyle} />}>
-            Video Editing
-          </Tabs.Tab> */}
+          <Tabs.Tab value="design" leftSection={<IconPalette style={iconStyle} />}>
+            Design
+          </Tabs.Tab>
         </Tabs.List>
 
+        <Tabs.Panel value="product">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1 }}>
+            <ProductMasonry />
+          </motion.div>
+        </Tabs.Panel>
         <Tabs.Panel value="websites">
           <motion.div
             initial={{ opacity: 0 }}
@@ -56,38 +57,14 @@ export default function Projects() {
             <WebMasonry />
           </motion.div>
         </Tabs.Panel>
-        <Tabs.Panel value="brand">
+        <Tabs.Panel value="design">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5 }}>
-            <BrandMasonry />
+            <DesignMasonry />
           </motion.div>
         </Tabs.Panel>
-        <Tabs.Panel value="prototypes">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}>
-            <ProtoMasonry />
-          </motion.div>
-        </Tabs.Panel>
-        <Tabs.Panel value="pubmats">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}>
-            <PubMasonry />
-          </motion.div>
-        </Tabs.Panel>
-        {/* <Tabs.Panel value="video">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}>
-            <VidMasonry />
-          </motion.div>
-        </Tabs.Panel> */}
       </Tabs>
     </MantineProvider>
   );

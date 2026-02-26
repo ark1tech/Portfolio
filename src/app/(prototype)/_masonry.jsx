@@ -4,9 +4,6 @@ import { FiArrowUpRight } from "react-icons/fi";
 export default function Masonry() {
   return (
     <div className="flex flex-col md:px-[1rem] px-0 py-[1rem] gap-[1rem]">
-      <p className="text-xs text-[#313131] w-full text-justify text-pretty font-['JetBrains_Mono']">
-        &#47;&#47; You are looking at hackathon prototypes that were made within 4-8 hours from scratch. I haven&rsquo;t touched them since to preserve their competition look.
-      </p>
       <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
         <Image
           className="w-full h-auto"

@@ -18,31 +18,32 @@ export default function Hero() {
               Arki Mañago
             </h1>
           </div>
-          <h5 className="w-full">Frontend Developer · Designer</h5> 
+          <h5 className="w-full">Product Design & Engineering</h5>
         </div>
       </div>
       <div className="w-full gap-[1rem] flex flex-col test3">
         <p>
-          Hello! I&rsquo;m Arki, and I make{" "}
-          {/* #text:has(.anime-title:hover) .word:not(.anime-title) {opacity: 0.2;} */}
+          I&rsquo;m Arki, and I love building products where{" "}
           <span id="uncensored" className="magic-text uncensored">
-            designs with magic and logic
+            good engineering meets good taste
           </span>
           .
         </p>
         <p>
-          Even as a computer science student, I&rsquo;ve immersed myself in
-          marketing and brand building through various leadership positions in
-          organizations at the University of the Philippines Diliman.
+          Comp sci student at UP Diliman who codes and designs. I like nitpicking every detail until it actually feels right because I believe good design lives in the details that are easy to miss and hard to unsee once you notice them.
         </p>
         <p>
-          My passion lies in fusing my marketing and programming skills to
-          develop web apps that solve problems in the most enjoyable experience.
-          It&rsquo;s my ultimate dream to make tech innovations that truly
-          matter to communities.
+          I care deeply about how people interact with products - that it&rsquo;s accessible, feels good, and satisfying to navigate while serving its purpose.
+          <Image
+            className="w-[20px] h-[20px] inline mx-[0.2rem] rotate-45 chuchi"
+            src="/static/images/kalachuchi.png"
+            width={80}
+            height={80}
+            alt="Picture of the author"
+          />
         </p>
-        <p>
-          On the side, I run with friends and play with my cat. I listen to{" "}
+        {/* <p>
+          I love <span className="italic"> love </span> OPM. I listen to{" "}
           <a
             className="text-inherit hover:text-white transition-all cursor-help"
             href="https://open.spotify.com/album/4prgRUxaRi1OHVtCMrCbK2?si=yPVFGef3QBW2RlYfnvwgkA"
@@ -65,19 +66,18 @@ export default function Hero() {
             height={80}
             alt="Picture of the author"
           />
-        </p>
+        </p> */}
       </div>
       <div className="flex flex-row gap-[2rem]">
         <a
           className="inline_link font-[500]"
           href="https://www.linkedin.com/in/ark1tech/"
           target="_blank">
-          <span className="">Connect with me</span>{" "}
-          <FiArrowUpRight className="icon rotate-[45deg]" />
+          <span className="">
+            Let&rsquo;s build something beautiful and useful!{" "}
+          </span>
+          <FiArrowUpRight className="icon rotate-[45deg] -ml-1" />
         </a>
-        {/* <a className="inline_link" href="/" target="_self">
-            Know more about me <FiArrowUpRight />
-          </a> */}
       </div>
     </div>
   );

@@ -62,19 +62,6 @@ export default function Masonry() {
               </p>
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
-              <Tooltip
-                color="dark"
-                label="Work in progress"
-                offset={20}
-                position="left"
-                transitionProps={{ transition: "pop", duration: 300 }}>
-                <a
-                  className="flex flex-row items-center gap-[0.5rem] cursor-not-allowed text-[#565252]"
-                  target="_blank">
-                  <span>Case study</span>{" "}
-                  <FiArrowUpRight className="icon rotate-[45deg]" />
-                </a>
-              </Tooltip>
               <a
                 className="inline_link"
                 href="https://pilipinuts.netlify.app/"
@@ -127,19 +114,6 @@ export default function Masonry() {
               </p>
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
-              <Tooltip
-                color="dark"
-                label="Work in progress"
-                offset={20}
-                position="left"
-                transitionProps={{ transition: "pop", duration: 300 }}>
-                <a
-                  className="flex flex-row items-center gap-[0.5rem] cursor-not-allowed text-[#565252]"
-                  target="_blank">
-                  <span>Case study</span>{" "}
-                  <FiArrowUpRight className="icon rotate-[45deg]" />
-                </a>
-              </Tooltip>
               <a
                 className="inline_link"
                 href="https://pocari-cs132.arkimanago.com"
@@ -192,22 +166,9 @@ export default function Masonry() {
               </p>
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
-              <Tooltip
-                color="dark"
-                label="Work in progress"
-                offset={20}
-                position="left"
-                transitionProps={{ transition: "pop", duration: 300 }}>
-                <a
-                  className="flex flex-row items-center gap-[0.5rem] cursor-not-allowed text-[#565252]"
-                  target="_blank">
-                  <span>Case study</span>{" "}
-                  <FiArrowUpRight className="icon rotate-[45deg]" />
-                </a>
-              </Tooltip>
               <a
                 className="inline_link"
-                href="https://broughtby.us/"
+                href="https://broughtby.netlify.app/"
                 target="_blank">
                 <span>Execution</span>{" "}
                 <FiArrowUpRight className="icon rotate-[45deg]" />
@@ -257,19 +218,6 @@ export default function Masonry() {
               </p>
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
-              <Tooltip
-                color="dark"
-                label="Work in progress"
-                offset={20}
-                position="left"
-                transitionProps={{ transition: "pop", duration: 300 }}>
-                <a
-                  className="flex flex-row items-center gap-[0.5rem] cursor-not-allowed text-[#565252]"
-                  target="_blank">
-                  <span>Case study</span>{" "}
-                  <FiArrowUpRight className="icon rotate-[45deg]" />
-                </a>
-              </Tooltip>
               <a
                 className="inline_link"
                 href="https://geandkrish.netlify.app"
@@ -323,19 +271,6 @@ export default function Masonry() {
               </p>
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
-              <Tooltip
-                color="dark"
-                label="Work in progress"
-                offset={20}
-                position="left"
-                transitionProps={{ transition: "pop", duration: 300 }}>
-                <a
-                  className="flex flex-row items-center gap-[0.5rem] cursor-not-allowed text-[#565252]"
-                  target="_blank">
-                  <span>Case study</span>{" "}
-                  <FiArrowUpRight className="icon rotate-[45deg]" />
-                </a>
-              </Tooltip>
               <a
                 className="inline_link"
                 href="https://temp.arkimanago.com"

@@ -324,8 +324,8 @@ h1 {
 /* Background Gradient */
 
 :root {
-  --purple: #ef542b;
-  --violet: rgb(237, 77, 77);
+  --purple: #f56239;
+  --violet: rgb(245, 84, 84);
   --pink: rgb(244, 215, 143);
 }
 
@@ -366,6 +366,7 @@ h1 {
     to right,
     var(--violet),
     var(--purple),
+    var(--pink),
     var(--pink),
     var(--violet)
   );
