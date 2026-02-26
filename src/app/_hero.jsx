@@ -32,7 +32,7 @@ export default function Hero() {
         <p>
           I believe good design lives in the details that are easy to miss and (as it turns out)
           hard to unsee. I care deeply about how people interact with products - that
-          it&rsquo;s accessible, practical, and most importantly feels good.
+          it&rsquo;s accessible, practical, and most importantly satisfying to use.
           <Image
             className="w-[20px] h-[20px] inline mx-[0.4rem] rotate-45 chuchi"
             src="/static/images/kalachuchi.png"
