@@ -36,7 +36,7 @@ export const metadata = {
       "Portfolio of Arki Mañago. Product design and engineering where good engineering meets good taste.",
     images: [
       {
-        url: "/static/images/meta.png",
+        url: "/meta.png",
         width: 1200,
         height: 630,
         alt: "Arki Mañago — Product Design & Engineering | arkitech",
@@ -48,7 +48,7 @@ export const metadata = {
     title: "Arki Mañago — Product Design & Engineering",
     description:
       "Portfolio of Arki Mañago. Product design and engineering where good engineering meets good taste.",
-    images: ["/static/images/meta.png"],
+    images: ["/meta.png"],
   },
   icons: [{ rel: "icon", url: Favicon.src }],
   robots: {
