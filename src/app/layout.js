@@ -7,8 +7,10 @@ import Favicon from "./favicon.png";
 
 import { ColorSchemeScript } from "@mantine/core";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+
 export const metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
+  metadataBase: new URL(siteUrl),
   title: {
     default: "ark1tech | Arki Mañago",
     template: "%s | Arki Mañago",
@@ -29,14 +31,14 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "/",
+    url: siteUrl,
     siteName: "Arki Mañago",
     title: "Arki Mañago — Product Design & Engineering",
     description:
       "Portfolio of Arki Mañago. Product design and engineering where good engineering meets good taste.",
     images: [
       {
-        url: "/meta.png",
+        url: `${siteUrl}/static/images/meta.png`,
         width: 1200,
         height: 630,
         alt: "Arki Mañago — Product Design & Engineering | arkitech",
@@ -48,7 +50,7 @@ export const metadata = {
     title: "Arki Mañago — Product Design & Engineering",
     description:
       "Portfolio of Arki Mañago. Product design and engineering where good engineering meets good taste.",
-    images: ["/meta.png"],
+    images: [`${siteUrl}/static/images/meta.png`],
   },
   icons: [{ rel: "icon", url: Favicon.src }],
   robots: {
@@ -56,10 +58,6 @@ export const metadata = {
     follow: true,
   },
 };
-
-// const theme = createTheme({
-//   colorScheme: 'dark'
-// });
 
 export default function RootLayout({ children }) {
   return (
