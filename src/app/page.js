@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from "./_hero";
 import Projects from "./_projects";
 import Footer from "./_foot";

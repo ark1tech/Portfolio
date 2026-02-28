@@ -7,7 +7,8 @@ import Favicon from "./favicon.png";
 
 import { ColorSchemeScript } from "@mantine/core";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+// const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+const siteUrl = "https://arkimanago.com/";
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
