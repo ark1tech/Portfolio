@@ -9,6 +9,7 @@
   --background-start-rgb: #0f0f0f;
   --background-end-rgb: rgb(255, 255, 255);
   --main-color: #ef542b;
+  --main-color-muted: rgba(49, 49, 49, 0.749);
   --content-width: 700px;
   --body-text: rgb(179, 179, 179);
 }
@@ -88,14 +89,14 @@ body {
   transition-duration: 500ms;
 }
 
-.full_card > img {
+.full_card img {
   opacity: 90%;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 500ms;
 }
 
-.full_card:hover > img {
+.full_card:hover img {
   opacity: 100%;
   filter: saturate(1.4);
 }
@@ -250,8 +251,8 @@ nav {
 h5 {
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
-  font-weight: 200;
-  color: rgb(198, 198, 198);
+  font-weight: 350;
+  color: var(--body-text);
   /* color: var(--main-color); */
 }
 
@@ -278,10 +279,15 @@ a {
 .navtext {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  transition-duration: 100ms;
 }
 .navtext:hover {
   color: var(--main-color);
+}
+.navtext-active {
+  color: var(--main-color-muted);
+  pointer-events: none;
+  cursor: default;
 }
 
 h1 {

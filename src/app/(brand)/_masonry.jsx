@@ -12,7 +12,7 @@ export default function Masonry() {
             src="/static/images/akkord.png"
             width={694}
             height={214}
-            alt="Picture of the author"
+            alt="project demo"
             quality={100}
           />
           <div className="card">
@@ -43,7 +43,7 @@ export default function Masonry() {
             src="/static/images/broughtbyb.png"
             width={694}
             height={214}
-            alt="Picture of the author"
+            alt="project demo"
             quality={100}
           />
           <div className="card">
@@ -75,7 +75,7 @@ export default function Masonry() {
             src="/static/images/cswek.png"
             width={694}
             height={214}
-            alt="Picture of the author"
+            alt="project demo"
             quality={100}
           />
           <div className="card">
@@ -107,7 +107,7 @@ export default function Masonry() {
             src="/static/images/tackle.png"
             width={694}
             height={214}
-            alt="Picture of the author"
+            alt="project demo"
             quality={100}
           />
           <div className="card">
@@ -139,7 +139,7 @@ export default function Masonry() {
             src="/static/images/nova.png"
             width={694}
             height={214}
-            alt="Picture of the author"
+            alt="project demo"
             quality={100}
           />
           <div className="card">

@@ -24,18 +24,18 @@ export default function Projects() {
           className="text-[#9f9f9e] ">
           <Tabs.Tab
             value="websites"
-            leftSection={<IconBrowser style={iconStyle} />}>
-            <span className="hidden min-[345px]:inline">Websites</span>
+            leftSection={<IconBrowser style={iconStyle}/>}>
+            <p className="hidden min-[360px]:inline">Websites</p>
           </Tabs.Tab>
           <Tabs.Tab
             value="design"
             leftSection={<IconPalette style={iconStyle} />}>
-            <span className="hidden min-[345px]:inline">Design</span>
+            <p className="hidden min-[360px]:inline">Design</p>
           </Tabs.Tab>
           <Tabs.Tab
             value="product"
             leftSection={<IconPackage style={iconStyle} />}>
-            <span className="hidden min-[345px]:inline">Product</span>
+            <p className="hidden min-[360px]:inline">Product</p>
           </Tabs.Tab>
         </Tabs.List>
 

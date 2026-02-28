@@ -10,7 +10,7 @@ export default function Masonry() {
           src="/static/images/5.png"
           width={694}
           height={214}
-          alt="Picture of the author"
+          alt="project demo"
           quality={100}
         />
         <div className="card">
@@ -42,7 +42,7 @@ export default function Masonry() {
           src="/static/images/6.png"
           width={694}
           height={214}
-          alt="Picture of the author"
+          alt="project demo"
           quality={100}
         />
         <div className="card">

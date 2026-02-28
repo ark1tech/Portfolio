@@ -1,5 +1,5 @@
 import { Tooltip, MantineProvider } from "@mantine/core";
-import Image from "next/image";
+import MasonryImage from "@/components/MasonryImage";
 import { FiArrowUpRight } from "react-icons/fi";
 import { RiSvelteFill } from "react-icons/ri";
 import { SiTailwindcss } from "react-icons/si";
@@ -23,13 +23,9 @@ export default function Masonry() {
         </p> */}
 
 <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
-          <Image
-            className="w-full h-auto"
+          <MasonryImage
             src="/static/images/pilipinuts.png"
-            width={694}
-            height={214}
-            alt="Picture of the author"
-            quality={100}
+            alt="PilipiNuts 2023"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
@@ -74,13 +70,9 @@ export default function Masonry() {
         </div>
 
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
-          <Image
-            className="w-full h-auto"
+          <MasonryImage
             src="/static/images/2.png"
-            width={694}
-            height={214}
-            alt="Picture of the author"
-            quality={100}
+            alt="CS 132 Portfolio"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
@@ -126,13 +118,9 @@ export default function Masonry() {
         </div>
 
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
-          <Image
-            className="w-full h-auto"
+          <MasonryImage
             src="/static/images/1.png"
-            width={694}
-            height={214}
-            alt="Picture of the author"
-            quality={100}
+            alt="Broughtby"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
@@ -178,13 +166,9 @@ export default function Masonry() {
         </div>
 
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
-          <Image
-            className="w-full h-auto"
+          <MasonryImage
             src="/static/images/4.png"
-            width={694}
-            height={214}
-            alt="Picture of the author"
-            quality={100}
+            alt="Older Sister's Wedding"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
@@ -230,13 +214,9 @@ export default function Masonry() {
         </div>
 
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
-          <Image
-            className="w-full h-auto"
+          <MasonryImage
             src="/static/images/3.png"
-            width={694}
-            height={214}
-            alt="Picture of the author"
-            quality={100}
+            alt="Personal Website"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">

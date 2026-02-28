@@ -15,7 +15,7 @@ export default function Foot() {
         height={461}
         quality={100}
         loading="lazy"
-        alt="Picture of the author"
+        alt="footer"
       />
       <Image
         className="z-0 px-[2rem] w-[550px] h-auto absolute left-0 right-0 bottom-0 mx-auto md:hidden block"
@@ -24,7 +24,7 @@ export default function Foot() {
         height={461}
         quality={100}
         loading="lazy"
-        alt="Picture of the author"
+        alt="footer"
       />
       <div className="absolute w-full h-[100svh] try z-1"></div>
       <div className="relative z-10 foot w-full flex flex-col mt-[3rem] mb-[19rem] gap-[2rem]">
@@ -46,7 +46,7 @@ export default function Foot() {
                 src="/static/images/rkbm.svg"
                 width={15}
                 height={10}
-                alt="Picture of the author"
+                alt="footer"
               />
             </Link>
             <a href="https://www.linkedin.com/in/ark1tech/" target="_blank">

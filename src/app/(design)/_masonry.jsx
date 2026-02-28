@@ -1,5 +1,5 @@
 import { MantineProvider } from "@mantine/core";
-import Image from "next/image";
+import MasonryImage from "@/components/MasonryImage";
 import { FiArrowUpRight } from "react-icons/fi";
 
 export default function DesignMasonry() {
@@ -8,13 +8,9 @@ export default function DesignMasonry() {
       <div className="flex flex-col md:px-[1rem] px-0 py-[1rem]  gap-[1rem]">
         {/* Brand */}
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
-          <Image
-            className="w-full h-auto"
+          <MasonryImage
             src="/static/images/akkord.png"
-            width={694}
-            height={214}
-            alt="Picture of the author"
-            quality={100}
+            alt="Akkord"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
@@ -39,13 +35,9 @@ export default function DesignMasonry() {
         </div>
 
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
-          <Image
-            className="w-full h-auto"
+          <MasonryImage
             src="/static/images/broughtbyb.png"
-            width={694}
-            height={214}
-            alt="Picture of the author"
-            quality={100}
+            alt="Broughtby"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
@@ -71,13 +63,9 @@ export default function DesignMasonry() {
         </div>
 
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
-          <Image
-            className="w-full h-auto"
+          <MasonryImage
             src="/static/images/cswek.png"
-            width={694}
-            height={214}
-            alt="Picture of the author"
-            quality={100}
+            alt="CS Week"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
@@ -103,13 +91,9 @@ export default function DesignMasonry() {
         </div>
 
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
-          <Image
-            className="w-full h-auto"
+          <MasonryImage
             src="/static/images/tackle.png"
-            width={694}
-            height={214}
-            alt="Picture of the author"
-            quality={100}
+            alt="Tackle 2024"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
@@ -135,13 +119,9 @@ export default function DesignMasonry() {
         </div>
 
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
-          <Image
-            className="w-full h-auto"
+          <MasonryImage
             src="/static/images/nova.png"
-            width={694}
-            height={214}
-            alt="Picture of the author"
-            quality={100}
+            alt="UP NOVA"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
@@ -169,13 +149,9 @@ export default function DesignMasonry() {
 
         {/* Prototypes */}
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
-          <Image
-            className="w-full h-auto"
+          <MasonryImage
             src="/static/images/5.png"
-            width={694}
-            height={214}
-            alt="Picture of the author"
-            quality={100}
+            alt="Checkmate"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
@@ -201,13 +177,9 @@ export default function DesignMasonry() {
         </div>
 
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
-          <Image
-            className="w-full h-auto"
+          <MasonryImage
             src="/static/images/6.png"
-            width={694}
-            height={214}
-            alt="Picture of the author"
-            quality={100}
+            alt="Nayon"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">

@@ -31,24 +31,23 @@ export default function Hero() {
         </p>
         <p>
           I believe good design lives in the details that are easy to miss and (as it turns out)
-          hard to unsee. I care deeply about how people interact with products - that
-          it&rsquo;s accessible, practical, and most importantly satisfying to use.
+          hard to unsee. I care deeply about how products feel - that interactions are satisfying, practical, and above all accessible.
           <Image
             className="w-[20px] h-[20px] inline mx-[0.4rem] rotate-45 chuchi"
             src="/static/images/kalachuchi.png"
             width={80}
             height={80}
-            alt="Picture of the author"
+            alt="kalachuchi"
           />
         </p>
-        <p>
+        <p className="text-[#757575]">
           On the side, I mostly spend time finishing my computer science degree at UP Diliman. I&rsquo;ve also been studying Japanese (N4) since my student exchange in Kyoto. Sometimes I play with my grumpy cat!{" "}
           <Image
             className="w-[20px] h-[20px] inline mx-[0.2rem]"
             src="/static/images/maki.png"
             width={80}
             height={80}
-            alt="Picture of the author"
+            alt="maki the cat"
           />
         </p>
         {/* <p>
@@ -82,9 +81,9 @@ export default function Hero() {
         href="https://www.linkedin.com/in/ark1tech/"
         target="_blank">
           <span className="flex-1">
-            Let&rsquo;s build something beautiful and{" "}
+            Connect with{" "}
             <span className="inline-flex items-center gap-1 whitespace-nowrap">
-              useful
+              me!
               <FiArrowUpRight className="icon rotate-[45deg]" />
             </span>
           </span>
