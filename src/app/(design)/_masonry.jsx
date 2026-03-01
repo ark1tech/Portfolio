@@ -27,7 +27,7 @@ export default function DesignMasonry() {
                 className="inline_link"
                 href="https://www.linkedin.com/company/akkord-smart-cities/"
                 target="_blank">
-                <span>Execution</span>{" "}
+                <span>View execution</span>{" "}
                 <FiArrowUpRight className="icon rotate-[45deg]" />
               </a>
             </div>
@@ -55,7 +55,7 @@ export default function DesignMasonry() {
                 className="inline_link"
                 href="https://broughtby.netlify.app/"
                 target="_blank">
-                <span>Execution</span>{" "}
+                <span>View execution</span>{" "}
                 <FiArrowUpRight className="icon rotate-[45deg]" />
               </a>
             </div>
@@ -83,7 +83,7 @@ export default function DesignMasonry() {
                 className="inline_link"
                 href="https://www.facebook.com/up.cs.week"
                 target="_blank">
-                <span>Execution</span>{" "}
+                <span>View execution</span>{" "}
                 <FiArrowUpRight className="icon rotate-[45deg]" />
               </a>
             </div>
@@ -111,7 +111,7 @@ export default function DesignMasonry() {
                 className="inline_link"
                 href="https://www.facebook.com/CURSOR.Tackle"
                 target="_blank">
-                <span>Execution</span>{" "}
+                <span>View execution</span>{" "}
                 <FiArrowUpRight className="icon rotate-[45deg]" />
               </a>
             </div>
@@ -140,7 +140,7 @@ export default function DesignMasonry() {
                 className="inline_link"
                 href="https://www.facebook.com/UPNOVAOfficial"
                 target="_blank">
-                <span>Execution</span>{" "}
+                <span>View execution</span>{" "}
                 <FiArrowUpRight className="icon rotate-[45deg]" />
               </a>
             </div>
@@ -169,7 +169,7 @@ export default function DesignMasonry() {
                 className="inline_link"
                 href="https://bit.ly/4cSh4BM"
                 target="_blank">
-                <span>Prototype</span>{" "}
+                <span>View prototype</span>{" "}
                 <FiArrowUpRight className="icon rotate-[45deg]" />
               </a>
             </div>
@@ -197,7 +197,7 @@ export default function DesignMasonry() {
                 className="inline_link"
                 href="https://bit.ly/4aR7Dkd"
                 target="_blank">
-                <span>Prototype</span>{" "}
+                <span>View prototype</span>{" "}
                 <FiArrowUpRight className="icon rotate-[45deg]" />
               </a>
             </div>

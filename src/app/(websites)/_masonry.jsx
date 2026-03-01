@@ -2,7 +2,7 @@ import { Tooltip, MantineProvider } from "@mantine/core";
 import MasonryImage from "@/components/MasonryImage";
 import { FiArrowUpRight } from "react-icons/fi";
 import { RiSvelteFill } from "react-icons/ri";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 import { FaGithub, FaVuejs, FaReact } from "react-icons/fa";
 
 export default function Masonry() {
@@ -25,15 +25,14 @@ export default function Masonry() {
 <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
           <MasonryImage
             src="/static/images/pilipinuts.png"
-            alt="PilipiNuts 2023"
+            alt="PilipiNuts: Philippine SDG Data Science Portfolio"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
-              <div className="flex flex-wrap justify-between items-center gap-[0.5rem]">
-                <p className="text-xs text-[#505050] w-full text-left text-pretty">
+              <div className="flex flex-row justify-between items-center gap-[0.5rem]">
+                <p className="text-xs text-[#505050] text-left text-pretty">
                   August 2024
                 </p>
-                <h4>PilipiNuts 2023</h4>
                 <div className="flex flex-row gap-[0.5rem] text-[#575757]">
                   <RiSvelteFill className="" />
                   <SiTailwindcss className="" />
@@ -53,8 +52,9 @@ export default function Masonry() {
                   </Tooltip>
                 </div>
               </div>
+              <h4>PilipiNuts: Philippine SDG Data Science Portfolio</h4>
               <p>
-                A portfolio website of data science projects tackling the Sustainable Development Goals in the Philippines.
+                A data science portfolio website showcasing analytical projects that explore and address the United Nations Sustainable Development Goals within the Philippine context.
               </p>
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
@@ -62,7 +62,7 @@ export default function Masonry() {
                 className="inline_link"
                 href="https://pilipinuts.netlify.app/"
                 target="_blank">
-                <span>Execution</span>{" "}
+                <span>View live</span>{" "}
                 <FiArrowUpRight className="icon rotate-[45deg]" />
               </a>
             </div>
@@ -72,15 +72,14 @@ export default function Masonry() {
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
           <MasonryImage
             src="/static/images/2.png"
-            alt="CS 132 Portfolio"
+            alt="Philippine Labor Crisis: A Data Science Investigation"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
-              <div className="flex flex-wrap justify-between items-center gap-[0.5rem]">
-                <p className="text-xs text-[#505050] w-full text-left text-pretty">
+              <div className="flex flex-row justify-between items-center gap-[0.5rem]">
+                <p className="text-xs text-[#505050] text-left text-pretty">
                   April 2024
                 </p>
-                <h4>CS 132 Portfolio</h4>
                 <div className="flex flex-row gap-[0.5rem] text-[#575757]">
                   <RiSvelteFill className="" />
                   <SiTailwindcss className="" />
@@ -100,9 +99,9 @@ export default function Masonry() {
                   </Tooltip>
                 </div>
               </div>
+              <h4>Philippine Labor Crisis: A Data Science Investigation</h4>
               <p>
-                A portfolio website that tells how a data science project about
-                Philippine labor struggles has been conducted.
+                An interactive data science portfolio documenting the end-to-end research process behind uncovering trends in Philippine labor displacement and workforce struggles.
               </p>
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
@@ -110,7 +109,7 @@ export default function Masonry() {
                 className="inline_link"
                 href="https://pocari-cs132.arkimanago.com"
                 target="_blank">
-                <span>Execution</span>{" "}
+                <span>View live</span>{" "}
                 <FiArrowUpRight className="icon rotate-[45deg]" />
               </a>
             </div>
@@ -120,15 +119,14 @@ export default function Masonry() {
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
           <MasonryImage
             src="/static/images/1.png"
-            alt="Broughtby"
+            alt="Broughtby - A Corporate Sponsorship Platform for Student Events"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
-              <div className="flex flex-wrap justify-between items-center gap-[0.5rem]">
-                <p className="text-xs text-[#505050] w-full text-left text-pretty">
+              <div className="flex flex-row justify-between items-center gap-[0.5rem]">
+                <p className="text-xs text-[#505050] text-left text-pretty">
                   April 2024
                 </p>
-                <h4>Broughtby</h4>
                 <div className="flex flex-row gap-[0.5rem] text-[#575757]">
                   <RiSvelteFill className="" />
                   <SiTailwindcss className="" />
@@ -148,9 +146,9 @@ export default function Masonry() {
                   </Tooltip>
                 </div>
               </div>
+              <h4>Broughtby - A Corporate Sponsorship Platform for Student Events</h4>
               <p>
-                A landing webpage for Broughtby, a startup that aims to ease
-                corporate transactions of youth-led and student-led events.
+                A sleek landing page for Broughtby, a startup streamlining corporate partnerships and sponsorship transactions for youth-led and student-organized events.
               </p>
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
@@ -158,7 +156,54 @@ export default function Masonry() {
                 className="inline_link"
                 href="https://broughtby.netlify.app/"
                 target="_blank">
-                <span>Execution</span>{" "}
+                <span>View live</span>{" "}
+                <FiArrowUpRight className="icon rotate-[45deg]" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
+          <MasonryImage
+            src="/static/images/7.png"
+            alt="King & Kim: Wedding Information Website"
+          />
+          <div className="card">
+            <div className="flex flex-col gap-[0.5rem] w-full">
+              <div className="flex flex-row justify-between items-center gap-[0.5rem]">
+                <p className="text-xs text-[#505050] text-left text-pretty">
+                  March 2024
+                </p>
+                <div className="flex flex-row gap-[0.5rem] text-[#575757]">
+                  <SiNextdotjs className="" />
+                  <SiTailwindcss className="" />
+                  <Tooltip
+                    color="dark"
+                    label="View on GitHub"
+                    offset={10}
+                    position="top"
+                    withArrow="true"
+                    transitionProps={{ transition: "pop", duration: 300 }}>
+                    <a
+                      className="inline_link transition-all"
+                      href="https://github.com/ark1tech/kknottyaffair"
+                      target="_blank">
+                      <FaGithub />
+                    </a>
+                  </Tooltip>
+                </div>
+              </div>
+              <h4>King & Kim: Wedding Information Website</h4>
+              <p>
+                A wedding information website for King & Kim featuring event details, RSVP, invitation, and a countdown to their celebration.
+              </p>
+            </div>
+            <div className="w-full flex flex-row justify-end gap-[1rem]">
+              <a
+                className="inline_link"
+                href="https://kknottyaffair.vercel.app/"
+                target="_blank">
+                <span>View live</span>{" "}
                 <FiArrowUpRight className="icon rotate-[45deg]" />
               </a>
             </div>
@@ -168,15 +213,14 @@ export default function Masonry() {
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
           <MasonryImage
             src="/static/images/4.png"
-            alt="Older Sister's Wedding"
+            alt="Ge & Krish: Wedding Information Website"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
-              <div className="flex flex-wrap justify-between items-center gap-[0.5rem]">
-                <p className="text-xs text-[#505050] w-full text-left text-pretty">
+              <div className="flex flex-row justify-between items-center gap-[0.5rem]">
+                <p className="text-xs text-[#505050] text-left text-pretty">
                   Feb 2024
                 </p>
-                <h4>Older Sister&rsquo;s Wedding</h4>
                 <div className="flex flex-row gap-[0.5rem] text-[#575757]">
                   <FaVuejs className="" />
                   <SiTailwindcss className="" />
@@ -196,9 +240,9 @@ export default function Masonry() {
                   </Tooltip>
                 </div>
               </div>
+              <h4>Ge & Krish: Wedding Information Website</h4>
               <p>
-                An information website that guided over 100 guests about the
-                engaged couple.
+                A personalized wedding website that delivered event details, couple stories, and guest guidance to over 100 attendees for a seamless celebration experience.
               </p>
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
@@ -206,7 +250,7 @@ export default function Masonry() {
                 className="inline_link"
                 href="https://geandkrish.netlify.app"
                 target="_blank">
-                <span>Execution</span>{" "}
+                <span>View live</span>{" "}
                 <FiArrowUpRight className="icon rotate-[45deg]" />
               </a>
             </div>
@@ -216,15 +260,14 @@ export default function Masonry() {
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
           <MasonryImage
             src="/static/images/3.png"
-            alt="Personal Website"
+            alt="Personal Developer Portfolio (v1)"
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
-              <div className="flex flex-wrap justify-between items-center gap-[0.5rem]">
-                <p className="text-xs text-[#505050] w-full text-left text-pretty">
+              <div className="flex flex-row justify-between items-center gap-[0.5rem]">
+                <p className="text-xs text-[#505050] text-left text-pretty">
                   March 2023
                 </p>
-                <h4>(Old) Personal Website</h4>
                 <div className="flex flex-row gap-[0.5rem] text-[#575757]">
                   <FaReact className="" />
                   <SiTailwindcss className="" />
@@ -244,10 +287,9 @@ export default function Masonry() {
                   </Tooltip>
                 </div>
               </div>
+              <h4>Personal Developer Portfolio (v1)</h4>
               <p>
-                My resume/portfolio website. Not maintained anymore as I am
-                currently revamping and rebranding it, and I&rsquo;m very
-                excited to launch it!
+                A React-based resume and portfolio website showcasing my early frontend development projects, design sensibilities, and technical skill set.
               </p>
             </div>
             <div className="w-full flex flex-row justify-end gap-[1rem]">
@@ -255,7 +297,7 @@ export default function Masonry() {
                 className="inline_link"
                 href="https://temp.arkimanago.com"
                 target="_blank">
-                <span>Execution</span>{" "}
+                <span>View live</span>{" "}
                 <FiArrowUpRight className="icon rotate-[45deg]" />
               </a>
             </div>

@@ -19,11 +19,10 @@ export default function ProductMasonry() {
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
-              <div className="flex flex-wrap justify-between items-center gap-[0.5rem]">
-                <p className="text-xs text-[#505050] w-full text-left text-pretty">
+              <div className="flex flex-row justify-between items-center gap-[0.5rem]">
+                <p className="text-xs text-[#505050] text-left text-pretty">
                   February 2026
                 </p>
-                <h4>Komyut - Commuting App</h4>
                 <div className="flex flex-row items-center gap-[0.5rem] text-[#575757]">
                   <RiSvelteFill className="" />
                   <SiSupabase className="mr-[0.1rem]" size={15} />
@@ -43,6 +42,7 @@ export default function ProductMasonry() {
                   </Tooltip>
                 </div>
               </div>
+              <h4>Komyut - Commuting App</h4>
               <p>
                 A community-driven transit platform combining real-time
                 crowdsourced routes, fares, and city updates to streamline
@@ -68,11 +68,10 @@ export default function ProductMasonry() {
           />
           <div className="card">
             <div className="flex flex-col gap-[0.5rem] w-full">
-              <div className="flex flex-wrap justify-between items-center gap-[0.5rem]">
-                <p className="text-xs text-[#505050] w-full text-left text-pretty">
+              <div className="flex flex-row justify-between items-center gap-[0.5rem]">
+                <p className="text-xs text-[#505050] text-left text-pretty">
                   February 2026
                 </p>
-                <h4>AI Reading Assistant</h4>
                 <div className="flex flex-row items-center gap-[0.5rem] text-[#575757]">
                   <SiNextdotjs className="" />
                   <span
@@ -82,6 +81,7 @@ export default function ProductMasonry() {
                   </span>
                 </div>
               </div>
+              <h4>AI Reading Assistant</h4>
               <p>
                 An intelligent reading companion that automatically captures,
                 contextualizes, and summarizes your PDF highlights without
