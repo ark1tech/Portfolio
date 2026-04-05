@@ -42,7 +42,7 @@ export default function Masonry() {
                     offset={10}
                     position="top"
                     withArrow="true"
-                    transitionProps={{ transition: "pop", duration: 300 }}>
+                    transitionProps={{ transition: "pop", duration: 250 }}>
                     <a
                       className="inline_link transition-all"
                       href="https://github.com/ark1tech/CS132-master-portfolio"
@@ -89,7 +89,7 @@ export default function Masonry() {
                     offset={10}
                     position="top"
                     withArrow="true"
-                    transitionProps={{ transition: "pop", duration: 300 }}>
+                    transitionProps={{ transition: "pop", duration: 250 }}>
                     <a
                       className="inline_link transition-all"
                       href="https://github.com/ark1tech/CS-132"
@@ -136,7 +136,7 @@ export default function Masonry() {
                     offset={10}
                     position="top"
                     withArrow="true"
-                    transitionProps={{ transition: "pop", duration: 300 }}>
+                    transitionProps={{ transition: "pop", duration: 250 }}>
                     <a
                       className="inline_link transition-all"
                       href="https://github.com/ark1tech/Broughtby"
@@ -183,7 +183,7 @@ export default function Masonry() {
                     offset={10}
                     position="top"
                     withArrow="true"
-                    transitionProps={{ transition: "pop", duration: 300 }}>
+                    transitionProps={{ transition: "pop", duration: 250 }}>
                     <a
                       className="inline_link transition-all"
                       href="https://github.com/ark1tech/kknottyaffair"
@@ -230,7 +230,7 @@ export default function Masonry() {
                     offset={10}
                     position="top"
                     withArrow="true"
-                    transitionProps={{ transition: "pop", duration: 300 }}>
+                    transitionProps={{ transition: "pop", duration: 250 }}>
                     <a
                       className="inline_link transition-all"
                       href="https://github.com/ark1tech/KGWedding/"
@@ -277,7 +277,7 @@ export default function Masonry() {
                     offset={10}
                     position="top"
                     withArrow="true"
-                    transitionProps={{ transition: "pop", duration: 300 }}>
+                    transitionProps={{ transition: "pop", duration: 250 }}>
                     <a
                       className="inline_link transition-all"
                       href="https://github.com/ark1tech/my-website"

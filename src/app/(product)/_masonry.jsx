@@ -1,13 +1,110 @@
 import { Tooltip, MantineProvider } from "@mantine/core";
 import Image from "next/image";
 import { RiSvelteFill } from "react-icons/ri";
-import { SiSupabase, SiNextdotjs } from "react-icons/si";
+import { SiSupabase, SiNextdotjs, SiTailwindcss, SiPython } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 
 export default function ProductMasonry() {
   return (
     <MantineProvider defaultColorScheme="dark">
       <div className="flex flex-col md:px-[1rem] px-0 py-[1rem] gap-[1rem]">
+        {/* Live AI Charades Agent - March 2026 */}
+        <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
+          <Image
+            className="w-full h-auto"
+            src="/static/images/wip.png"
+            width={694}
+            height={214}
+            alt="Live AI Charades Agent"
+            quality={100}
+          />
+          <div className="card">
+            <div className="flex flex-col gap-[0.5rem] w-full">
+              <div className="flex flex-row justify-between items-center gap-[0.5rem]">
+                <p className="text-xs text-[#505050] text-left text-pretty">
+                  March 2026
+                </p>
+                <div className="flex flex-row items-center gap-[0.5rem] text-[#575757]">
+                  <SiPython className="" />
+                  <Tooltip
+                    color="dark"
+                    label="View on GitHub"
+                    offset={10}
+                    position="top"
+                    withArrow="true"
+                    transitionProps={{ transition: "pop", duration: 250 }}>
+                    <a
+                      className="inline_link transition-all"
+                      href="https://github.com/ark1tech/casper-build-day"
+                      target="_blank">
+                      <FaGithub />
+                    </a>
+                  </Tooltip>
+                </div>
+              </div>
+              <h4>Live AI Charades Agent</h4>
+              <p>
+                A real-time AI agent that interprets live video streams of charades performers using dynamic confidence thresholds and semantic deduplication to optimize guess accuracy.
+              </p>
+            </div>
+            <div className="w-full flex flex-row justify-end gap-[1rem]">
+              <p className="text-[#575757] text-sm cursor-default">
+                Work in progress
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Crowdsourced Jeepney Navigation App - March 2026 */}
+        <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
+          <Image
+            className="w-full h-auto"
+            src="/static/images/wip.png"
+            width={694}
+            height={214}
+            alt="Crowdsourced Jeepney Navigation App"
+            quality={100}
+          />
+          <div className="card">
+            <div className="flex flex-col gap-[0.5rem] w-full">
+              <div className="flex flex-row justify-between items-center gap-[0.5rem]">
+                <p className="text-xs text-[#505050] text-left text-pretty">
+                  March 2026
+                </p>
+                <div className="flex flex-row items-center gap-[0.5rem] text-[#575757]">
+                  <SiNextdotjs className="" />
+                  <SiTailwindcss className="" />
+                  <SiSupabase className="mr-[0.1rem]" size={15} />
+                  <Tooltip
+                    color="dark"
+                    label="View on GitHub"
+                    offset={10}
+                    position="top"
+                    withArrow="true"
+                    transitionProps={{ transition: "pop", duration: 250 }}>
+                    <a
+                      className="inline_link transition-all"
+                      href="https://github.com/ark1tech/dyip-ph"
+                      target="_blank">
+                      <FaGithub />
+                    </a>
+                  </Tooltip>
+                </div>
+              </div>
+              <h4>Crowdsourced Jeepney Navigation App</h4>
+              <p>
+                An interactive transit navigation platform for Metro Manila that visualizes crowdsourced Jeepney GPS traces using real-time path slicing and spatial analysis.
+              </p>
+            </div>
+            <div className="w-full flex flex-row justify-end gap-[1rem]">
+              <p className="text-[#575757] text-sm cursor-default">
+                Work in progress
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Komyut - February 2026 */}
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
           <Image
             className="w-full h-auto"
@@ -32,7 +129,7 @@ export default function ProductMasonry() {
                     offset={10}
                     position="top"
                     withArrow="true"
-                    transitionProps={{ transition: "pop", duration: 300 }}>
+                    transitionProps={{ transition: "pop", duration: 250 }}>
                     <a
                       className="inline_link transition-all"
                       href="https://github.com/ark1tech/komyut-ph"
@@ -57,6 +154,7 @@ export default function ProductMasonry() {
           </div>
         </div>
 
+        {/* AI Reading Assistant - February 2026 */}
         <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
           <Image
             className="w-full h-auto"
