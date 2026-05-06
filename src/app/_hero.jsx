@@ -3,7 +3,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 export default function Hero() {
   return (
-    <div className=" flex flex-col items-start gap-[2rem]">
+    <div className=" flex flex-col items-start gap-[2rem] py-5">
       <div className="flex flex-row gap-[1rem] items-center">
         {/* <Image
             className="border-[1px] border-[#262626] rounded-md w-[65px] h-auto"
@@ -21,7 +21,7 @@ export default function Hero() {
           <h5 className="w-full">Product Design & Engineering</h5>
         </div>
       </div>
-      <div className="w-full gap-[1rem] flex flex-col test3">
+      <div className="w-full gap-[1rem] flex flex-col test3 leading-relaxed">
         <p>
           I&rsquo;m Arki, and I looove building stuff where{" "}
           <span id="uncensored" className="magic-text uncensored">

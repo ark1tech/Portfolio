@@ -8,7 +8,7 @@ export default function MasonryImage({ src, width = 694, height = 214, alt, qual
   const [loaded, setLoaded] = useState(false);
 
   return (
-    <div className={`relative w-full aspect-[694/214] ${className}`}>
+    <div className={`relative w-full aspect-[694/214] overflow-hidden ${className}`}>
       <Skeleton
         className="absolute inset-0 w-full h-full rounded-none"
         animate={true}
@@ -20,7 +20,7 @@ export default function MasonryImage({ src, width = 694, height = 214, alt, qual
         alt={alt}
         quality={quality}
         onLoad={() => setLoaded(true)}
-        className={`w-full h-auto transition-opacity duration-300 ${
+        className={`absolute inset-0 w-full h-full object-cover block transition-opacity duration-300 ${
           loaded ? "opacity-100" : "opacity-0"
         }`}
       />

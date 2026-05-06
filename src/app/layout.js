@@ -6,6 +6,32 @@ import NavBar from "./_nav.jsx";
 import Favicon from "./favicon.png";
 
 import { ColorSchemeScript } from "@mantine/core";
+import { Inter, DM_Sans, Roboto, JetBrains_Mono } from "next/font/google";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-dm-sans",
+  display: "swap",
+});
+
+const roboto = Roboto({
+  weight: ["100", "300", "400", "500", "700", "900"],
+  subsets: ["latin"],
+  variable: "--font-roboto",
+  display: "swap",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrains-mono",
+  display: "swap",
+});
 
 // const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 const siteUrl = "https://arkimanago.com/";
@@ -62,11 +88,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.variable} ${dmSans.variable} ${roboto.variable} ${jetbrainsMono.variable}`}>
       <head>
         <ColorSchemeScript forceColorScheme="dark" />
       </head>
-      <body className="font-['Roboto'] overflow-x-hidden">
+      <body className="font-roboto overflow-x-hidden">
         <NextTopLoader color="#ef542b" height={3} showSpinner={false} />
         <div className="container flex flex-col items-center">
           <NavBar />

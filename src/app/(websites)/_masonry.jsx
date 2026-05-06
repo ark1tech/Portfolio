@@ -24,6 +24,39 @@ export default function Masonry() {
 
 <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
           <MasonryImage
+            src="/static/images/stride.png"
+            alt="Stride Tech Official Website"
+          />
+          <div className="card">
+            <div className="flex flex-col gap-[0.5rem] w-full">
+              <div className="flex flex-row justify-between items-center gap-[0.5rem]">
+                <p className="text-xs text-[#505050] text-left text-pretty">
+                  March 2026
+                </p>
+                <div className="flex flex-row gap-[0.5rem] text-[#575757]">
+                  <SiNextdotjs className="" />
+                  <SiTailwindcss className="" />
+                </div>
+              </div>
+              <h4>Stride Technologies Official Website</h4>
+              <p>
+                A corporate website for Stride Technologies, a civic tech startup building scalable digital platforms that modernize citizen request management for local governments.
+              </p>
+            </div>
+            <div className="w-full flex flex-row justify-end gap-[1rem]">
+              <a
+                className="inline_link"
+                href="https://www.stridetech.ph/"
+                target="_blank">
+                <span>View live</span>{" "}
+                <FiArrowUpRight className="icon rotate-[45deg]" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full flex flex-col border-[1px] border-[#262626] rounded-md overflow-hidden full_card">
+          <MasonryImage
             src="/static/images/pilipinuts.png"
             alt="PilipiNuts: Philippine SDG Data Science Portfolio"
           />
