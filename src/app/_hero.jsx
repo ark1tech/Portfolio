@@ -18,7 +18,7 @@ export default function Hero() {
               Arki Mañago
             </h1>
           </div>
-          <h5 className="w-full">Product Design & Engineering</h5>
+          <h5 className="w-full">AI Engineering & Product Design</h5> 
         </div>
       </div>
       <div className="w-full gap-[1rem] flex flex-col test3 leading-relaxed">
